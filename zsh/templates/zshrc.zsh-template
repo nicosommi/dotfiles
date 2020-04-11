@@ -107,6 +107,12 @@ source $ZSH/oh-my-zsh.sh
 
 # export ANDROID_HOME="~/Library/Android/sdk"
 
+# HOMEBREW PREFIX is useful for macos, enable and adjust path
+# export HOMEBREW_PREFIX=/Users/myuser/homebrew
+# export PATH="$HOMEBREW_PREFIX/bin:$HOME/.bin:$PATH"
+
+# fastlane + android tools (RN)
+# export PATH="$HOME/.fastlane/bin:$HOME:$ANDROID_HOME/platform-tools:$PATH"
 
 # added by travis gem
 # [ -f ~/.travis/travis.sh ] && source ~/.travis/travis.sh
