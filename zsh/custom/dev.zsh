@@ -3,7 +3,6 @@ ide=code
 ide_ws_extension=code-workspace
 text_editor=code
 brave=/Applications/Brave.app/Contents/MacOS/Brave\ Browser
-firefox=/Applications/Firefox.app/Contents/MacOS/firefox
 
 alias ws="cd $workspace"
 
