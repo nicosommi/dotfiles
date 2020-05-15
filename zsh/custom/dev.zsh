@@ -39,3 +39,14 @@ telegram() {
 code-sandbox() {
   brave-app https://codesandbox.io/
 }
+
+perf-site-help() {
+  echo "perf-site https://nicosommi.com"
+}
+perf-site-cls() {
+  lighthouse $1 --quiet --chrome-flags="--headless" --output json | jq '.audits[\"$2\"].displayValue'
+}
+
+perf-site() {
+  lighthouse $1 --quiet --chrome-flags="--headless" --output json | lighthouse-console-reporter
+}
