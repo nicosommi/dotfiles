@@ -149,8 +149,12 @@ load-nvmrc() {
     nvm use default
   fi
 }
-add-zsh-hook chpwd load-nvmrc
-load-nvmrc
+
+if [ -x "$(command -v nvm)" ]; then
+  echo 'Nvm detected, adding detection hook.' >&2
+  add-zsh-hook chpwd load-nvmrc
+  load-nvmrc
+fi
 
 
 NEXT_TELEMETRY_DISABLED=1
