@@ -27,3 +27,7 @@ paste-from-clipboard() {
     echo "No paste tool found on the system"
   fi
 }
+
+install-homebrew() {
+  mkdir ~/homebrew && curl -L https://github.com/Homebrew/brew/tarball/master | tar xz --strip 1 -C ~/homebrew
+}
