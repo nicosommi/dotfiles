@@ -13,12 +13,20 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
 
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
 Plug 'junegunn/seoul256.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'yarn install',
+  \ 'branch': 'release/0.x'
+  \ }
 
 Plug 'pangloss/vim-javascript'    " JavaScript support
 Plug 'leafgarland/typescript-vim' " TypeScript syntax
@@ -29,6 +37,11 @@ Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
 
 Plug 'jremmen/vim-ripgrep' " Ripgrep
+
+Plug 'tpope/vim-fugitive' " Ripgrep
+
+Plug 'vim-syntastic/syntastic'
+Plug 'rust-lang/rust.vim'
 
 call plug#end()
 
@@ -43,7 +56,8 @@ set shiftwidth=2
 
 " show line numbers
 set number
-syntax on
+syntax enable
+filetype plugin indent on
 
 " Theming
 colorscheme seoul256
