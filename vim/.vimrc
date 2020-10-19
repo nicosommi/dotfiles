@@ -16,7 +16,11 @@ Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 
+Plug 'kaicataldo/material.vim'
 Plug 'junegunn/seoul256.vim'
+Plug 'ghifarit53/tokyonight-vim'
+Plug 'morhetz/gruvbox'
+
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
 
@@ -32,6 +36,7 @@ Plug 'pangloss/vim-javascript'    " JavaScript support
 Plug 'leafgarland/typescript-vim' " TypeScript syntax
 Plug 'maxmellon/vim-jsx-pretty'   " JS and JSX syntax
 Plug 'jparise/vim-graphql'        " GraphQL syntax
+Plug 'gabrielelana/vim-markdown'  " Markdown support
 
 Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
@@ -95,9 +100,11 @@ set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 set wildmode=longest,list,full
 set wildmenu
 
+" Copy to OSX clipboard
+set clipboard=unnamed
+
 " Auto set cwd *may make others fail
 autocmd BufEnter * silent! lcd %:p:h
 
 " Ts server
 let g:coc_global_extensions = [ 'coc-tsserver' ]
-
