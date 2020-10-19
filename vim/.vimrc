@@ -48,6 +48,8 @@ Plug 'tpope/vim-fugitive' " Ripgrep
 Plug 'vim-syntastic/syntastic'
 Plug 'rust-lang/rust.vim'
 
+Plug 'preservim/tagbar'
+
 call plug#end()
 
 " Map leader to space
@@ -90,6 +92,8 @@ nnoremap <silent> <Leader>hh :History<CR>
 nnoremap <silent> <Leader>h: :History:<CR>
 nnoremap <silent> <Leader>h/ :History/<CR>
 
+nmap <C-t> :TagbarToggle<CR> " Tagbar outline
+
 " Dont find in file names when finding in files
 command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
 
@@ -108,3 +112,7 @@ autocmd BufEnter * silent! lcd %:p:h
 
 " Ts server
 let g:coc_global_extensions = [ 'coc-tsserver' ]
+
+" Disable swap file
+set noswapfile
+
