@@ -20,6 +20,7 @@ Plug 'kaicataldo/material.vim'
 Plug 'junegunn/seoul256.vim'
 Plug 'ghifarit53/tokyonight-vim'
 Plug 'morhetz/gruvbox'
+Plug 'Rigellute/shades-of-purple.vim'
 
 Plug 'junegunn/goyo.vim'
 Plug 'junegunn/limelight.vim'
@@ -67,7 +68,15 @@ syntax enable
 filetype plugin indent on
 
 " Theming
-colorscheme seoul256
+""" enable 24bit true color
+" If you have vim >=8.0 or Neovim >= 0.1.5
+if (has("termguicolors"))
+  set termguicolors
+endif
+
+"""" enable the theme
+colorscheme shades_of_purple
+let &t_Co=256
 
 " autocmd VimEnter * Goyo
 autocmd VimEnter * Limelight
@@ -94,6 +103,17 @@ nnoremap <silent> <Leader>h/ :History/<CR>
 
 nmap <C-t> :TagbarToggle<CR> " Tagbar outline
 
+" Copy file with path
+:nmap cfp :let @" = expand("%")<cr>
+
+" Move lines
+nnoremap <C-j> :m .+1<CR>==
+nnoremap <C-k> :m .-2<CR>==
+inoremap <C-j> <Esc>:m .+1<CR>==gi
+inoremap <C-k> <Esc>:m .-2<CR>==gi
+vnoremap <C-j> :m '>+1<CR>gv=gv
+vnoremap <C-k> :m '<-2<CR>gv=gv
+
 " Dont find in file names when finding in files
 command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=always --smart-case ".shellescape(<q-args>), 1, {'options': '--delimiter : --nth 4..'}, <bang>0)
 
@@ -115,4 +135,7 @@ let g:coc_global_extensions = [ 'coc-tsserver' ]
 
 " Disable swap file
 set noswapfile
+
+let g:shades_of_purple_airline = 1
+let g:airline_theme='shades_of_purple'
 
