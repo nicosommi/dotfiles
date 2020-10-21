@@ -79,7 +79,8 @@ colorscheme shades_of_purple
 let &t_Co=256
 
 " autocmd VimEnter * Goyo
-" autocmd VimEnter * Limelight
+let g:limelight_conceal_ctermfg = 'gray'
+autocmd VimEnter * Limelight
 
 " Remap keys for applying codeAction to the current line.
 nmap <leader>ac  <Plug>(coc-codeaction)
