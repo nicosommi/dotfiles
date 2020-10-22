@@ -49,7 +49,7 @@ Plug 'tpope/vim-fugitive' " Ripgrep
 Plug 'vim-syntastic/syntastic'
 Plug 'rust-lang/rust.vim'
 
-Plug 'preservim/tagbar'
+Plug 'majutsushi/tagbar'
 
 call plug#end()
 
@@ -102,7 +102,7 @@ nnoremap <silent> <Leader>hh :History<CR>
 nnoremap <silent> <Leader>h: :History:<CR>
 nnoremap <silent> <Leader>h/ :History/<CR>
 
-nmap <C-t> :TagbarToggle<CR> " Tagbar outline
+nmap <C-o> :TagbarToggle<CR> " Tagbar outline
 
 " Copy file with path
 :nmap cfp :let @" = expand("%")<cr>
@@ -150,4 +150,10 @@ set noswapfile
 
 let g:shades_of_purple_airline = 1
 let g:airline_theme='shades_of_purple'
+
+set tags=./tags,tags;
+
+let g:tagbar_autofocus = 1
+let g:tagbar_compact = 1
+let g:tagbar_autoclose = 1
 

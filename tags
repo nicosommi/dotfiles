@@ -1,0 +1,567 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/663bfb1/
+$(PLUGIN_TARGET)	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^$(PLUGIN_TARGET): $(HEADER_FILES) $(SRC_FILES)$/;"	t
+--	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^    REPLY="${"$(alias -- $arg)"#*=}"$/;"	a
+--	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^alias -- +plus=plus$/;"	a
+--	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^alias -- _other=other$/;"	a
+-L	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^if [[ $original_alias_dash_L_output == $(alias -L) ]]; then$/;"	a
+-g	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/global-alias1.zsh	/^alias -g foo=bar$/;"	a
+-g	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/parameter-to-global-alias.zsh	/^alias -g x=y$/;"	a
+-s	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias.zsh	/^alias -s alias2="echo"$/;"	a
+<C-e>	vim/.vimrc	/^nnoremap <C-e> :NERDTreeToggle<CR>$/;"	m
+<C-j>	vim/.vimrc	/^inoremap <C-j> <Esc>:m .+1<CR>==gi$/;"	m
+<C-j>	vim/.vimrc	/^nnoremap <C-j> :m .+1<CR>==$/;"	m
+<C-j>	vim/.vimrc	/^vnoremap <C-j> :m '>+1<CR>gv=gv$/;"	m
+<C-k>	vim/.vimrc	/^inoremap <C-k> <Esc>:m .-2<CR>==gi$/;"	m
+<C-k>	vim/.vimrc	/^nnoremap <C-k> :m .-2<CR>==$/;"	m
+<C-k>	vim/.vimrc	/^vnoremap <C-k> :m '<-2<CR>gv=gv$/;"	m
+<C-p>	vim/.vimrc	/^map <C-p> :Files<CR>$/;"	m
+<C-t>	vim/.vimrc	/^nmap <C-t> :TagbarToggle<CR> " Tagbar outline$/;"	m
+<Leader>'	vim/.vimrc	/^nnoremap <silent> <Leader>' :Marks<CR>$/;"	m
+<Leader>/	vim/.vimrc	/^nnoremap <silent> <Leader>\/ :BLines<CR>$/;"	m
+<Leader>1	vim/.vimrc	/^nnoremap <Leader>1 1gt$/;"	m
+<Leader>2	vim/.vimrc	/^nnoremap <Leader>2 2gt$/;"	m
+<Leader>3	vim/.vimrc	/^nnoremap <Leader>3 3gt$/;"	m
+<Leader>4	vim/.vimrc	/^nnoremap <Leader>4 4gt$/;"	m
+<Leader>5	vim/.vimrc	/^nnoremap <Leader>5 5gt$/;"	m
+<Leader>6	vim/.vimrc	/^nnoremap <Leader>6 6gt$/;"	m
+<Leader>7	vim/.vimrc	/^nnoremap <Leader>7 7gt$/;"	m
+<Leader>8	vim/.vimrc	/^nnoremap <Leader>8 8gt$/;"	m
+<Leader>9	vim/.vimrc	/^nnoremap <Leader>9 9gt$/;"	m
+<Leader>H	vim/.vimrc	/^nnoremap <silent> <Leader>H :Helptags<CR>$/;"	m
+<Leader>b	vim/.vimrc	/^nnoremap <silent> <Leader>b :Buffers<CR>$/;"	m
+<Leader>f	vim/.vimrc	/^nnoremap <silent> <Leader>f :Rg<CR>$/;"	m
+<Leader>g	vim/.vimrc	/^nnoremap <silent> <Leader>g :Commits<CR>$/;"	m
+<Leader>h/	vim/.vimrc	/^nnoremap <silent> <Leader>h\/ :History\/<CR>$/;"	m
+<Leader>h:	vim/.vimrc	/^nnoremap <silent> <Leader>h: :History:<CR>$/;"	m
+<Leader>hh	vim/.vimrc	/^nnoremap <silent> <Leader>hh :History<CR>$/;"	m
+<leader>ac	vim/.vimrc	/^nmap <leader>ac  <Plug>(coc-codeaction)$/;"	m
+<leader>qf	vim/.vimrc	/^nmap <leader>qf  <Plug>(coc-fix-current)$/;"	m
+API changes (for highlighter authors):	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## API changes (for highlighter authors):$/;"	s	chapter:Changes in version 0.5.0
+API changes (for highlighter authors):	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## API changes (for highlighter authors):$/;"	s	chapter:Changes in version 0.6.0
+Added highlighting of:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Added highlighting of:$/;"	s	chapter:Changes in version 0.3.0
+Added highlighting of:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Added highlighting of:$/;"	s	chapter:Changes in version 0.4.0
+Added highlighting of:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Added highlighting of:$/;"	s	chapter:Changes in version 0.5.0
+Added highlighting of:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Added highlighting of:$/;"	s	chapter:Changes in version 0.6.0
+Additional context	zsh/custom/plugins/zsh-autosuggestions/.github/ISSUE_TEMPLATE/bug-report.md	/^### Additional context$/;"	S
+Additional context	zsh/custom/plugins/zsh-autosuggestions/.github/ISSUE_TEMPLATE/feature_request.md	/^### Additional context$/;"	S
+Antigen	zsh/custom/plugins/zsh-autosuggestions/INSTALL.md	/^## Antigen$/;"	s	chapter:Installation
+Build Process	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Build Process$/;"	S	section:zsh-autosuggestions""Development
+Changelog	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^# Changelog$/;"	c
+Changes in HEAD	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^# Changes in HEAD$/;"	c
+Changes in version 0.3.0	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^# Changes in version 0.3.0$/;"	c
+Changes in version 0.4.0	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^# Changes in version 0.4.0$/;"	c
+Changes in version 0.4.1	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^# Changes in version 0.4.1$/;"	c
+Changes in version 0.5.0	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^# Changes in version 0.5.0$/;"	c
+Changes in version 0.6.0	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^# Changes in version 0.6.0$/;"	c
+Changes in version 0.7.0	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^# Changes in version 0.7.0$/;"	c
+Changes in version 0.7.1	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^# Changes in version 0.7.1$/;"	c
+Configuration	zsh/custom/plugins/zsh-autosuggestions/README.md	/^## Configuration$/;"	s	chapter:zsh-autosuggestions
+Contributing	zsh/custom/plugins/zsh-completions/CONTRIBUTING.md	/^# Contributing$/;"	c
+Contributing	zsh/custom/plugins/zsh-completions/README.md	/^### Contributing$/;"	S	section:zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc://irc.freenode.net/#zsh-completions) [![Gitter](https://badges.gitter.im/zsh-users/zsh-completions.svg)](https://gitter.im/zsh-users/zsh-completions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)""Usage
+Contributing Completion Functions to Zsh	zsh/custom/plugins/zsh-completions/CONTRIBUTING.md	/^## Contributing Completion Functions to Zsh$/;"	s	chapter:Contributing
+DOC_DIR	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^DOC_DIR?=$(DESTDIR)$(PREFIX)\/share\/doc\/$(NAME)$/;"	m
+Describe alternatives you've considered	zsh/custom/plugins/zsh-autosuggestions/.github/ISSUE_TEMPLATE/feature_request.md	/^### Describe alternatives you've considered$/;"	S
+Describe the bug	zsh/custom/plugins/zsh-autosuggestions/.github/ISSUE_TEMPLATE/bug-report.md	/^### Describe the bug$/;"	S
+Describe the solution you'd like	zsh/custom/plugins/zsh-autosuggestions/.github/ISSUE_TEMPLATE/feature_request.md	/^### Describe the solution you'd like$/;"	S
+Desktop	zsh/custom/plugins/zsh-autosuggestions/.github/ISSUE_TEMPLATE/bug-report.md	/^### Desktop$/;"	S
+Developer-visible changes:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Developer-visible changes:$/;"	s	chapter:Changes in version 0.3.0
+Developer-visible changes:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Developer-visible changes:$/;"	s	chapter:Changes in version 0.4.0
+Developer-visible changes:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Developer-visible changes:$/;"	s	chapter:Changes in version 0.5.0
+Developer-visible changes:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Developer-visible changes:$/;"	s	chapter:Changes in version 0.6.0
+Development	zsh/custom/plugins/zsh-autosuggestions/README.md	/^## Development$/;"	s	chapter:zsh-autosuggestions
+Disabling automatic widget re-binding	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Disabling automatic widget re-binding$/;"	S	section:zsh-autosuggestions""Configuration
+Disabling suggestion for large buffers	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Disabling suggestion for large buffers$/;"	S	section:zsh-autosuggestions""Configuration
+Doc	zsh/custom/plugins/docker-common/README.md	/^### Doc$/;"	S	section:Dserve-php
+Docker common plugin	zsh/custom/plugins/docker-common/README.md	/^## Docker common plugin$/;"	s
+Does syntax highlighting work during incremental history search?	zsh/custom/plugins/zsh-syntax-highlighting/README.md	/^### Does syntax highlighting work during incremental history search?$/;"	S	section:zsh-syntax-highlighting [![Build Status][build-status-image]][build-status-travis]""FAQ
+Dserve	zsh/custom/plugins/docker-common/README.md	/^### Dserve$/;"	S	section:Docker common plugin
+Dserve-php	zsh/custom/plugins/docker-common/README.md	/^## Dserve-php$/;"	s
+Enable Asynchronous Mode	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Enable Asynchronous Mode$/;"	S	section:zsh-autosuggestions""Configuration
+Expected behavior	zsh/custom/plugins/zsh-autosuggestions/.github/ISSUE_TEMPLATE/bug-report.md	/^### Expected behavior$/;"	S
+FAQ	zsh/custom/plugins/zsh-syntax-highlighting/README.md	/^FAQ$/;"	s	chapter:zsh-syntax-highlighting [![Build Status][build-status-image]][build-status-travis]
+Fixed highlighting of:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Fixed highlighting of:$/;"	s	chapter:Changes in version 0.3.0
+Fixed highlighting of:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Fixed highlighting of:$/;"	s	chapter:Changes in version 0.4.0
+Fixed highlighting of:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Fixed highlighting of:$/;"	s	chapter:Changes in version 0.5.0
+Fixed highlighting of:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Fixed highlighting of:$/;"	s	chapter:Changes in version 0.6.0
+Fixes:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Fixes:$/;"	s	chapter:Changes in version 0.4.1
+Forward compatibility.	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/main.md	/^#### Forward compatibility.$/;"	t	subsection:zsh-syntax-highlighting / highlighters / main""Useless trivia
+Forward compatibility.	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/README.md	/^#### Forward compatibility.$/;"	t	subsection:zsh-syntax-highlighting / highlighters / main""Useless trivia
+HEADER_FILES	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^HEADER_FILES := \\$/;"	m
+Hacking on zsh-syntax-highlighting itself	zsh/custom/plugins/zsh-syntax-highlighting/HACKING.md	/^Hacking on zsh-syntax-highlighting itself$/;"	c
+Highlighting test	zsh/custom/plugins/zsh-syntax-highlighting/tests/README.md	/^Highlighting test$/;"	s	chapter:zsh-syntax-highlighting / tests
+How are new releases announced?	zsh/custom/plugins/zsh-syntax-highlighting/README.md	/^### How are new releases announced?$/;"	S	section:zsh-syntax-highlighting [![Build Status][build-status-image]][build-status-travis]""FAQ
+How to Contribute to zsh-completions	zsh/custom/plugins/zsh-completions/CONTRIBUTING.md	/^## How to Contribute to zsh-completions$/;"	s	chapter:Contributing
+How to activate highlighters	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters.md	/^How to activate highlighters$/;"	s	chapter:zsh-syntax-highlighting / highlighters
+How to implement a new highlighter	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters.md	/^How to implement a new highlighter$/;"	s	chapter:zsh-syntax-highlighting / highlighters
+How to install	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^How to install$/;"	s
+How to install	zsh/custom/plugins/zsh-syntax-highlighting/README.md	/^How to install$/;"	s	chapter:zsh-syntax-highlighting [![Build Status][build-status-image]][build-status-travis]
+How to tweak	zsh/custom/plugins/zsh-syntax-highlighting/README.md	/^How to tweak$/;"	s	chapter:zsh-syntax-highlighting [![Build Status][build-status-image]][build-status-travis]
+How to tweak highlighters	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters.md	/^How to tweak highlighters$/;"	s	chapter:zsh-syntax-highlighting / highlighters
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/brackets.md	/^### How to tweak it$/;"	S	section:zsh-syntax-highlighting / highlighters / brackets
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/cursor.md	/^### How to tweak it$/;"	S	section:zsh-syntax-highlighting / highlighters / cursor
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/line.md	/^### How to tweak it$/;"	S	section:zsh-syntax-highlighting / highlighters / line
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/main.md	/^### How to tweak it$/;"	S	section:zsh-syntax-highlighting / highlighters / main
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/pattern.md	/^### How to tweak it$/;"	S	section:zsh-syntax-highlighting / highlighters / pattern
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/regexp.md	/^### How to tweak it$/;"	S	section:zsh-syntax-highlighting / highlighters / regexp
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/root.md	/^### How to tweak it$/;"	S	section:zsh-syntax-highlighting / highlighters / root
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/brackets/README.md	/^### How to tweak it$/;"	S	section:zsh-syntax-highlighting / highlighters / brackets
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/cursor/README.md	/^### How to tweak it$/;"	S	section:zsh-syntax-highlighting / highlighters / cursor
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/line/README.md	/^### How to tweak it$/;"	S	section:zsh-syntax-highlighting / highlighters / line
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/README.md	/^### How to tweak it$/;"	S	section:zsh-syntax-highlighting / highlighters / main
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/pattern/README.md	/^### How to tweak it$/;"	S	section:zsh-syntax-highlighting / highlighters / pattern
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/regexp/README.md	/^### How to tweak it$/;"	S	section:zsh-syntax-highlighting / highlighters / regexp
+How to tweak it	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/root/README.md	/^### How to tweak it$/;"	S	section:zsh-syntax-highlighting / highlighters / root
+INSTALL	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^INSTALL?=install -c$/;"	m
+IRC channel	zsh/custom/plugins/zsh-syntax-highlighting/HACKING.md	/^IRC channel$/;"	s	chapter:Hacking on zsh-syntax-highlighting itself
+Ignoring history suggestions that match a pattern	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Ignoring history suggestions that match a pattern$/;"	S	section:zsh-autosuggestions""Configuration
+In your ~/.zshrc	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^### In your ~\/.zshrc$/;"	S	section:How to install
+Including Completion Functions in Upstream Projects	zsh/custom/plugins/zsh-completions/CONTRIBUTING.md	/^## Including Completion Functions in Upstream Projects$/;"	s	chapter:Contributing
+Installation	zsh/custom/plugins/zsh-autosuggestions/INSTALL.md	/^# Installation$/;"	c
+Installation	zsh/custom/plugins/zsh-autosuggestions/README.md	/^## Installation$/;"	s	chapter:zsh-autosuggestions
+Is your feature request related to a problem? Please describe.	zsh/custom/plugins/zsh-autosuggestions/.github/ISSUE_TEMPLATE/feature_request.md	/^### Is your feature request related to a problem? Please describe.$/;"	S
+Key Bindings	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Key Bindings$/;"	S	section:zsh-autosuggestions""Configuration
+License	zsh/custom/plugins/zsh-autosuggestions/README.md	/^## License$/;"	s	chapter:zsh-autosuggestions
+License	zsh/custom/plugins/zsh-completions/README.md	/^## License$/;"	s	chapter:zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc://irc.freenode.net/#zsh-completions) [![Gitter](https://badges.gitter.im/zsh-users/zsh-completions.svg)](https://gitter.im/zsh-users/zsh-completions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+Manual (Git Clone)	zsh/custom/plugins/zsh-autosuggestions/INSTALL.md	/^## Manual (Git Clone)$/;"	s	chapter:Installation
+Manual installation	zsh/custom/plugins/zsh-completions/README.md	/^### Manual installation$/;"	S	section:zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc://irc.freenode.net/#zsh-completions) [![Gitter](https://badges.gitter.im/zsh-users/zsh-completions.svg)](https://gitter.im/zsh-users/zsh-completions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)""Usage
+Miscellany	zsh/custom/plugins/zsh-syntax-highlighting/HACKING.md	/^Miscellany$/;"	s	chapter:Hacking on zsh-syntax-highlighting itself
+NAME	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^NAME=zsh-syntax-highlighting$/;"	m
+Oh My Zsh	zsh/custom/plugins/zsh-autosuggestions/INSTALL.md	/^## Oh My Zsh$/;"	s	chapter:Installation
+Other changes:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Other changes:$/;"	s	chapter:Changes in version 0.3.0
+Other changes:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Other changes:$/;"	s	chapter:Changes in version 0.4.0
+Other changes:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Other changes:$/;"	s	chapter:Changes in version 0.5.0
+Other changes:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Other changes:$/;"	s	chapter:Changes in version 0.6.0
+PLUGIN_TARGET	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^PLUGIN_TARGET := zsh-autosuggestions.zsh$/;"	m
+PREFIX	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^PREFIX?=\/usr\/local$/;"	m
+Packages	zsh/custom/plugins/zsh-autosuggestions/INSTALL.md	/^## Packages$/;"	s	chapter:Installation
+Parameters	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/main.md	/^#### Parameters$/;"	t	subsection:zsh-syntax-highlighting / highlighters / main""How to tweak it
+Parameters	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/README.md	/^#### Parameters$/;"	t	subsection:zsh-syntax-highlighting / highlighters / main""How to tweak it
+Performance improvements:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Performance improvements:$/;"	s	chapter:Changes in version 0.5.0
+Performance improvements:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Performance improvements:$/;"	s	chapter:Changes in version 0.6.0
+Performance test	zsh/custom/plugins/zsh-syntax-highlighting/tests/README.md	/^Performance test$/;"	s	chapter:zsh-syntax-highlighting / tests
+Pull Requests	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Pull Requests$/;"	S	section:zsh-autosuggestions""Development
+Release procedure (for developers):	zsh/custom/plugins/zsh-syntax-highlighting/release.md	/^# Release procedure (for developers):$/;"	c
+Removed features:	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^## Removed features:$/;"	s	chapter:Changes in version 0.4.0
+Reporting an Issue	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Reporting an Issue$/;"	S	section:zsh-autosuggestions""Troubleshooting
+Rg	vim/.vimrc	/^command! -bang -nargs=* Rg call fzf#vim#grep("rg --column --line-number --no-heading --color=alw/;"	c
+SHARE_DIR	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^SHARE_DIR?=$(DESTDIR)$(PREFIX)\/share\/$(NAME)$/;"	m
+SRC_DIR	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^SRC_DIR    := .\/src$/;"	m
+SRC_FILES	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^SRC_FILES := \\$/;"	m
+Screenshots	zsh/custom/plugins/zsh-autosuggestions/.github/ISSUE_TEMPLATE/bug-report.md	/^### Screenshots$/;"	S
+Sdoc	zsh/custom/plugins/docker-common/README.md	/^### Sdoc$/;"	S	section:Dserve-php
+Skipping completion suggestions for certain cases	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Skipping completion suggestions for certain cases$/;"	S	section:zsh-autosuggestions""Configuration
+Suggestion Highlight Style	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Suggestion Highlight Style$/;"	S	section:zsh-autosuggestions""Configuration
+Suggestion Strategy	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Suggestion Strategy$/;"	S	section:zsh-autosuggestions""Configuration
+System-wide installation	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^### System-wide installation$/;"	S	section:How to install
+TerminalSession	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^class TerminalSession$/;"	c
+Testing	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Testing$/;"	S	section:zsh-autosuggestions""Development
+Testing the `brackets` highlighter	zsh/custom/plugins/zsh-syntax-highlighting/HACKING.md	/^Testing the `brackets` highlighter$/;"	s	chapter:Hacking on zsh-syntax-highlighting itself
+Testing the `pattern` and `regexp` highlighters	zsh/custom/plugins/zsh-syntax-highlighting/HACKING.md	/^Testing the `pattern` and `regexp` highlighters$/;"	s	chapter:Hacking on zsh-syntax-highlighting itself
+The `main` highlighter	zsh/custom/plugins/zsh-syntax-highlighting/HACKING.md	/^The `main` highlighter$/;"	s	chapter:Hacking on zsh-syntax-highlighting itself
+To Reproduce	zsh/custom/plugins/zsh-autosuggestions/.github/ISSUE_TEMPLATE/bug-report.md	/^### To Reproduce$/;"	S
+Troubleshooting	zsh/custom/plugins/zsh-autosuggestions/README.md	/^## Troubleshooting$/;"	s	chapter:zsh-autosuggestions
+Uninstallation	zsh/custom/plugins/zsh-autosuggestions/README.md	/^## Uninstallation$/;"	s	chapter:zsh-autosuggestions
+Usage	zsh/custom/plugins/zsh-autosuggestions/README.md	/^## Usage$/;"	s	chapter:zsh-autosuggestions
+Usage	zsh/custom/plugins/zsh-completions/README.md	/^## Usage$/;"	s	chapter:zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc://irc.freenode.net/#zsh-completions) [![Gitter](https://badges.gitter.im/zsh-users/zsh-completions.svg)](https://gitter.im/zsh-users/zsh-completions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+Useless trivia	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/main.md	/^### Useless trivia$/;"	S	section:zsh-syntax-highlighting / highlighters / main
+Useless trivia	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/README.md	/^### Useless trivia$/;"	S	section:zsh-syntax-highlighting / highlighters / main
+Using packages	zsh/custom/plugins/zsh-completions/README.md	/^### Using packages$/;"	S	section:zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc://irc.freenode.net/#zsh-completions) [![Gitter](https://badges.gitter.im/zsh-users/zsh-completions.svg)](https://gitter.im/zsh-users/zsh-completions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)""Usage
+Using packages	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^### Using packages$/;"	S	section:How to install
+Using zsh frameworks	zsh/custom/plugins/zsh-completions/README.md	/^### Using zsh frameworks$/;"	S	section:zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc://irc.freenode.net/#zsh-completions) [![Gitter](https://badges.gitter.im/zsh-users/zsh-completions.svg)](https://gitter.im/zsh-users/zsh-completions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)""Usage
+Version 0.2.1	zsh/custom/plugins/zsh-syntax-highlighting/changelog.md	/^# Version 0.2.1$/;"	c
+Why must `zsh-syntax-highlighting.zsh` be sourced at the end of the `.zshrc` file?	zsh/custom/plugins/zsh-syntax-highlighting/README.md	/^### Why must `zsh-syntax-highlighting.zsh` be sourced at the end of the `.zshrc` file?$/;"	S	section:zsh-syntax-highlighting [![Build Status][build-status-image]][build-status-travis]""FAQ
+Widget Mapping	zsh/custom/plugins/zsh-autosuggestions/README.md	/^### Widget Mapping$/;"	S	section:zsh-autosuggestions""Configuration
+With a plugin manager	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^### With a plugin manager$/;"	S	section:How to install
+Writing new tests	zsh/custom/plugins/zsh-syntax-highlighting/tests/README.md	/^Writing new tests$/;"	s	chapter:zsh-syntax-highlighting / tests
+ZSH	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^ZSH?=zsh # zsh binary to run tests with$/;"	m
+ZSH_BIN	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  ZSH_BIN = ENV['TEST_ZSH_BIN'] || 'zsh'$/;"	C	class:TerminalSession
+ZSH_HIGHLIGHT_STYLES=	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^ZSH_HIGHLIGHT_STYLES=()$/;"	f
+[Antigen](https://github.com/zsh-users/antigen)	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^#### [Antigen](https:\/\/github.com\/zsh-users\/antigen)$/;"	t	subsection:How to install""With a plugin manager
+[Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^#### [Oh-my-zsh](https:\/\/github.com\/robbyrussell\/oh-my-zsh)$/;"	t	subsection:How to install""With a plugin manager
+[Prezto](https://github.com/sorin-ionescu/prezto)	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^#### [Prezto](https:\/\/github.com\/sorin-ionescu\/prezto)$/;"	t	subsection:How to install""With a plugin manager
+[antigen](https://github.com/zsh-users/antigen)	zsh/custom/plugins/zsh-completions/README.md	/^#### [antigen](https:\/\/github.com\/zsh-users\/antigen)$/;"	t	subsection:zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc://irc.freenode.net/#zsh-completions) [![Gitter](https://badges.gitter.im/zsh-users/zsh-completions.svg)](https://gitter.im/zsh-users/zsh-completions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)""Usage""Using zsh frameworks
+[oh-my-zsh](http://github.com/robbyrussell/oh-my-zsh)	zsh/custom/plugins/zsh-completions/README.md	/^#### [oh-my-zsh](http:\/\/github.com\/robbyrussell\/oh-my-zsh)$/;"	t	subsection:zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc://irc.freenode.net/#zsh-completions) [![Gitter](https://badges.gitter.im/zsh-users/zsh-completions.svg)](https://gitter.im/zsh-users/zsh-completions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)""Usage""Using zsh frameworks
+[zgen](https://github.com/tarjoilija/zgen)	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^#### [zgen](https:\/\/github.com\/tarjoilija\/zgen)$/;"	t	subsection:How to install""With a plugin manager
+[zplug](https://github.com/zplug/zplug)	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^#### [zplug](https:\/\/github.com\/zplug\/zplug)$/;"	t	subsection:How to install""With a plugin manager
+[zplugin](https://github.com/psprint/zplugin)	zsh/custom/plugins/zsh-syntax-highlighting/INSTALL.md	/^#### [zplugin](https:\/\/github.com\/psprint\/zplugin)$/;"	t	subsection:How to install""With a plugin manager
+_complete	zsh/custom/plugins/zsh-autosuggestions/src/strategies/completion.zsh	/^	function _complete() {$/;"	f
+_complete	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^	function _complete() {$/;"	f
+_zsh_autosuggest_accept	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_accept() {$/;"	f
+_zsh_autosuggest_accept	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_accept() {$/;"	f
+_zsh_autosuggest_async_request	zsh/custom/plugins/zsh-autosuggestions/src/async.zsh	/^_zsh_autosuggest_async_request() {$/;"	f
+_zsh_autosuggest_async_request	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_async_request() {$/;"	f
+_zsh_autosuggest_async_response	zsh/custom/plugins/zsh-autosuggestions/src/async.zsh	/^_zsh_autosuggest_async_response() {$/;"	f
+_zsh_autosuggest_async_response	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_async_response() {$/;"	f
+_zsh_autosuggest_bind_widget	zsh/custom/plugins/zsh-autosuggestions/src/bind.zsh	/^_zsh_autosuggest_bind_widget() {$/;"	f
+_zsh_autosuggest_bind_widget	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_bind_widget() {$/;"	f
+_zsh_autosuggest_bind_widgets	zsh/custom/plugins/zsh-autosuggestions/src/bind.zsh	/^_zsh_autosuggest_bind_widgets() {$/;"	f
+_zsh_autosuggest_bind_widgets	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_bind_widgets() {$/;"	f
+_zsh_autosuggest_capture_completion_async	zsh/custom/plugins/zsh-autosuggestions/src/strategies/completion.zsh	/^_zsh_autosuggest_capture_completion_async() {$/;"	f
+_zsh_autosuggest_capture_completion_async	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_capture_completion_async() {$/;"	f
+_zsh_autosuggest_capture_completion_sync	zsh/custom/plugins/zsh-autosuggestions/src/strategies/completion.zsh	/^_zsh_autosuggest_capture_completion_sync() {$/;"	f
+_zsh_autosuggest_capture_completion_sync	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_capture_completion_sync() {$/;"	f
+_zsh_autosuggest_capture_completion_widget	zsh/custom/plugins/zsh-autosuggestions/src/strategies/completion.zsh	/^_zsh_autosuggest_capture_completion_widget() {$/;"	f
+_zsh_autosuggest_capture_completion_widget	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_capture_completion_widget() {$/;"	f
+_zsh_autosuggest_capture_postcompletion	zsh/custom/plugins/zsh-autosuggestions/src/strategies/completion.zsh	/^_zsh_autosuggest_capture_postcompletion() {$/;"	f
+_zsh_autosuggest_capture_postcompletion	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_capture_postcompletion() {$/;"	f
+_zsh_autosuggest_capture_setup	zsh/custom/plugins/zsh-autosuggestions/src/strategies/completion.zsh	/^_zsh_autosuggest_capture_setup() {$/;"	f
+_zsh_autosuggest_capture_setup	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_capture_setup() {$/;"	f
+_zsh_autosuggest_clear	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_clear() {$/;"	f
+_zsh_autosuggest_clear	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_clear() {$/;"	f
+_zsh_autosuggest_disable	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_disable() {$/;"	f
+_zsh_autosuggest_disable	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_disable() {$/;"	f
+_zsh_autosuggest_enable	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_enable() {$/;"	f
+_zsh_autosuggest_enable	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_enable() {$/;"	f
+_zsh_autosuggest_escape_command	zsh/custom/plugins/zsh-autosuggestions/src/util.zsh	/^_zsh_autosuggest_escape_command() {$/;"	f
+_zsh_autosuggest_escape_command	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_escape_command() {$/;"	f
+_zsh_autosuggest_execute	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_execute() {$/;"	f
+_zsh_autosuggest_execute	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_execute() {$/;"	f
+_zsh_autosuggest_fetch	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_fetch() {$/;"	f
+_zsh_autosuggest_fetch	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_fetch() {$/;"	f
+_zsh_autosuggest_fetch_suggestion	zsh/custom/plugins/zsh-autosuggestions/src/fetch.zsh	/^_zsh_autosuggest_fetch_suggestion() {$/;"	f
+_zsh_autosuggest_fetch_suggestion	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_fetch_suggestion() {$/;"	f
+_zsh_autosuggest_highlight_apply	zsh/custom/plugins/zsh-autosuggestions/src/highlight.zsh	/^_zsh_autosuggest_highlight_apply() {$/;"	f
+_zsh_autosuggest_highlight_apply	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_highlight_apply() {$/;"	f
+_zsh_autosuggest_highlight_reset	zsh/custom/plugins/zsh-autosuggestions/src/highlight.zsh	/^_zsh_autosuggest_highlight_reset() {$/;"	f
+_zsh_autosuggest_highlight_reset	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_highlight_reset() {$/;"	f
+_zsh_autosuggest_incr_bind_count	zsh/custom/plugins/zsh-autosuggestions/src/bind.zsh	/^_zsh_autosuggest_incr_bind_count() {$/;"	f
+_zsh_autosuggest_incr_bind_count	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_incr_bind_count() {$/;"	f
+_zsh_autosuggest_invoke_original_widget	zsh/custom/plugins/zsh-autosuggestions/src/bind.zsh	/^_zsh_autosuggest_invoke_original_widget() {$/;"	f
+_zsh_autosuggest_invoke_original_widget	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_invoke_original_widget() {$/;"	f
+_zsh_autosuggest_modify	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_modify() {$/;"	f
+_zsh_autosuggest_modify	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_modify() {$/;"	f
+_zsh_autosuggest_partial_accept	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_partial_accept() {$/;"	f
+_zsh_autosuggest_partial_accept	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_partial_accept() {$/;"	f
+_zsh_autosuggest_start	zsh/custom/plugins/zsh-autosuggestions/src/start.zsh	/^_zsh_autosuggest_start() {$/;"	f
+_zsh_autosuggest_start	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_start() {$/;"	f
+_zsh_autosuggest_strategy_completion	zsh/custom/plugins/zsh-autosuggestions/src/strategies/completion.zsh	/^_zsh_autosuggest_strategy_completion() {$/;"	f
+_zsh_autosuggest_strategy_completion	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_strategy_completion() {$/;"	f
+_zsh_autosuggest_strategy_history	zsh/custom/plugins/zsh-autosuggestions/src/strategies/history.zsh	/^_zsh_autosuggest_strategy_history() {$/;"	f
+_zsh_autosuggest_strategy_history	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_strategy_history() {$/;"	f
+_zsh_autosuggest_strategy_match_prev_cmd	zsh/custom/plugins/zsh-autosuggestions/src/strategies/match_prev_cmd.zsh	/^_zsh_autosuggest_strategy_match_prev_cmd() {$/;"	f
+_zsh_autosuggest_strategy_match_prev_cmd	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_strategy_match_prev_cmd() {$/;"	f
+_zsh_autosuggest_suggest	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_suggest() {$/;"	f
+_zsh_autosuggest_suggest	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_suggest() {$/;"	f
+_zsh_autosuggest_toggle	zsh/custom/plugins/zsh-autosuggestions/src/widgets.zsh	/^_zsh_autosuggest_toggle() {$/;"	f
+_zsh_autosuggest_toggle	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^_zsh_autosuggest_toggle() {$/;"	f
+_zsh_highlight	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight()$/;"	f
+_zsh_highlight_add_highlight	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/inheritance.zsh	/^_zsh_highlight_add_highlight()$/;"	f
+_zsh_highlight_add_highlight	zsh/custom/plugins/zsh-syntax-highlighting/tests/generate.zsh	/^_zsh_highlight_add_highlight()$/;"	f
+_zsh_highlight_add_highlight	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^_zsh_highlight_add_highlight()$/;"	f
+_zsh_highlight_add_highlight	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_add_highlight()$/;"	f
+_zsh_highlight_apply_zle_highlight	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_apply_zle_highlight() {$/;"	f
+_zsh_highlight_bind_widgets	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_bind_widgets()$/;"	f
+_zsh_highlight_brackets_match	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/brackets/brackets-highlighter.zsh	/^_zsh_highlight_brackets_match()$/;"	f
+_zsh_highlight_buffer_modified	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_buffer_modified()$/;"	f
+_zsh_highlight_call_widget	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_call_widget()$/;"	f
+_zsh_highlight_cursor_moved	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_cursor_moved()$/;"	f
+_zsh_highlight_highlighter_brackets_paint	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/brackets/brackets-highlighter.zsh	/^_zsh_highlight_highlighter_brackets_paint()$/;"	f
+_zsh_highlight_highlighter_brackets_predicate	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/brackets/brackets-highlighter.zsh	/^_zsh_highlight_highlighter_brackets_predicate()$/;"	f
+_zsh_highlight_highlighter_cursor_paint	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/cursor/cursor-highlighter.zsh	/^_zsh_highlight_highlighter_cursor_paint()$/;"	f
+_zsh_highlight_highlighter_cursor_predicate	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/cursor/cursor-highlighter.zsh	/^_zsh_highlight_highlighter_cursor_predicate()$/;"	f
+_zsh_highlight_highlighter_line_paint	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/line/line-highlighter.zsh	/^_zsh_highlight_highlighter_line_paint()$/;"	f
+_zsh_highlight_highlighter_line_predicate	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/line/line-highlighter.zsh	/^_zsh_highlight_highlighter_line_predicate()$/;"	f
+_zsh_highlight_highlighter_main_paint	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_highlighter_main_paint()$/;"	f
+_zsh_highlight_highlighter_main_predicate	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_highlighter_main_predicate()$/;"	f
+_zsh_highlight_highlighter_pattern_paint	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/pattern/pattern-highlighter.zsh	/^_zsh_highlight_highlighter_pattern_paint()$/;"	f
+_zsh_highlight_highlighter_pattern_predicate	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/pattern/pattern-highlighter.zsh	/^_zsh_highlight_highlighter_pattern_predicate()$/;"	f
+_zsh_highlight_highlighter_regexp_paint	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/regexp/regexp-highlighter.zsh	/^_zsh_highlight_highlighter_regexp_paint()$/;"	f
+_zsh_highlight_highlighter_regexp_predicate	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/regexp/regexp-highlighter.zsh	/^_zsh_highlight_highlighter_regexp_predicate()$/;"	f
+_zsh_highlight_highlighter_root_paint	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/root/root-highlighter.zsh	/^_zsh_highlight_highlighter_root_paint()$/;"	f
+_zsh_highlight_highlighter_root_predicate	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/root/root-highlighter.zsh	/^_zsh_highlight_highlighter_root_predicate()$/;"	f
+_zsh_highlight_load_highlighters	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_load_highlighters()$/;"	f
+_zsh_highlight_main__command_type_cache=	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^  _zsh_highlight_main__command_type_cache=()$/;"	f
+_zsh_highlight_main__is_redirection	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main__is_redirection() {$/;"	f
+_zsh_highlight_main__is_runnable	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main__is_runnable() {$/;"	f
+_zsh_highlight_main__precmd_hook	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main__precmd_hook() {$/;"	f
+_zsh_highlight_main__resolve_alias	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main__resolve_alias() {$/;"	f
+_zsh_highlight_main__stack_pop	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main__stack_pop() {$/;"	f
+_zsh_highlight_main__type	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main__type() {$/;"	f
+_zsh_highlight_main_add_many_region_highlights	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_add_many_region_highlights() {$/;"	f
+_zsh_highlight_main_add_region_highlight	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_add_region_highlight() {$/;"	f
+_zsh_highlight_main_calculate_fallback	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_calculate_fallback() {$/;"	f
+_zsh_highlight_main_highlighter__try_expand_parameter	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter__try_expand_parameter()$/;"	f
+_zsh_highlight_main_highlighter_check_assign	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_check_assign()$/;"	f
+_zsh_highlight_main_highlighter_check_path	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_check_path()$/;"	f
+_zsh_highlight_main_highlighter_expand_path	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_expand_path()$/;"	f
+_zsh_highlight_main_highlighter_highlight_argument	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_highlight_argument()$/;"	f
+_zsh_highlight_main_highlighter_highlight_backtick	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_highlight_backtick()$/;"	f
+_zsh_highlight_main_highlighter_highlight_dollar_quote	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_highlight_dollar_quote()$/;"	f
+_zsh_highlight_main_highlighter_highlight_double_quote	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_highlight_double_quote()$/;"	f
+_zsh_highlight_main_highlighter_highlight_list	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_highlight_list()$/;"	f
+_zsh_highlight_main_highlighter_highlight_path_separators	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_highlight_path_separators()$/;"	f
+_zsh_highlight_main_highlighter_highlight_single_quote	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^_zsh_highlight_main_highlighter_highlight_single_quote()$/;"	f
+_zsh_highlight_pattern_highlighter_loop	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/pattern/pattern-highlighter.zsh	/^_zsh_highlight_pattern_highlighter_loop()$/;"	f
+_zsh_highlight_preexec_hook	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^_zsh_highlight_preexec_hook()$/;"	f
+_zsh_highlight_regexp_highlighter_loop	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/regexp/regexp-highlighter.zsh	/^_zsh_highlight_regexp_highlighter_loop()$/;"	f
+`copy-earlier-word`	zsh/custom/plugins/zsh-autosuggestions/spec/async_spec.rb	/^  describe '`copy-earlier-word`' do$/;"	d
+`up-line-or-beginning-search`	zsh/custom/plugins/zsh-autosuggestions/spec/async_spec.rb	/^  describe '`up-line-or-beginning-search`' do$/;"	d
+`vi-delete`	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/vi_mode_spec.rb	/^  describe '`vi-delete`' do$/;"	d
+`vi-find-next-char`	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/vi_mode_spec.rb	/^  describe '`vi-find-next-char`' do$/;"	d
+`vi-forward-word-end`	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/vi_mode_spec.rb	/^  describe '`vi-forward-word-end`' do$/;"	d
+`vi-forward-word`	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/vi_mode_spec.rb	/^  describe '`vi-forward-word`' do$/;"	d
+`yank-pop`	zsh/custom/plugins/zsh-autosuggestions/spec/kill_ring_spec.rb	/^  describe '`yank-pop`' do$/;"	d
+a	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-loop.zsh	/^alias a=b b=c c=b$/;"	a
+a	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-nested-precommand.zsh	/^alias a=b b=sudo$/;"	a
+a	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-nested.zsh	/^alias a=b b=:$/;"	a
+a	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-quoted.zsh	/^alias a=: ls='ls -l'$/;"	a
+a	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-unknown-token1.zsh	/^alias a=b b=foo$/;"	a
+a	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-unknown-token2.zsh	/^alias a='() { ls "$@" ; foo }'$/;"	a
+a	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/off-by-one.zsh	/^alias a=:$/;"	a
+a displayed suggestion	zsh/custom/plugins/zsh-autosuggestions/spec/options/highlight_style_spec.rb	/^describe 'a displayed suggestion' do$/;"	d
+a modification to the widget lists	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^describe 'a modification to the widget lists' do$/;"	d
+a multi-line suggestion	zsh/custom/plugins/zsh-autosuggestions/spec/multi_line_spec.rb	/^describe 'a multi-line suggestion' do$/;"	d
+a running zpty command	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/client_zpty_spec.rb	/^describe 'a running zpty command' do$/;"	d
+a special character in the buffer	zsh/custom/plugins/zsh-autosuggestions/spec/strategies/special_characters_helper.rb	/^  describe 'a special character in the buffer' do$/;"	d
+a suggestion	zsh/custom/plugins/zsh-autosuggestions/spec/options/buffer_max_size_spec.rb	/^describe 'a suggestion' do$/;"	d
+a suggestion for a given prefix	zsh/custom/plugins/zsh-autosuggestions/spec/options/strategy_spec.rb	/^describe 'a suggestion for a given prefix' do$/;"	d
+a wrapped widget	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/wrapped_widget_spec.rb	/^describe 'a wrapped widget' do$/;"	d
+a zle widget	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^describe 'a zle widget' do$/;"	d
+alias1	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias.zsh	/^alias alias1="ls"$/;"	a
+alias1	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias.zsh	/^function alias1() {} # to check that it's highlighted as an alias, not as a function$/;"	f
+all	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^all: $(PLUGIN_TARGET)$/;"	t
+all	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^all:$/;"	t
+amasijar	zsh/custom/process.zsh	/^amasijar() {$/;"	f
+an original zle widget	zsh/custom/plugins/zsh-autosuggestions/spec/options/original_widget_prefix_spec.rb	/^describe 'an original zle widget' do$/;"	d
+arg0	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^      alias arg0$/;"	a
+arg0	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^      function arg0$/;"	f
+attach!	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def attach!$/;"	f	class:TerminalSession
+b	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-loop.zsh	/^function b() {} # beware of ALIAS_FUNC_DEF$/;"	f
+bar	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/array-cmdsep1.zsh	/^bar(){}$/;"	f
+brave-app	zsh/custom/dev.zsh	/^brave-app() {$/;"	f
+cd	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/function.zsh	/^cd() {$/;"	f
+changeMac	zsh/custom/privacy.zsh	/^changeMac() {$/;"	f
+clean	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^clean:$/;"	t
+clean	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^clean:$/;"	t
+clear_screen	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def clear_screen$/;"	f	class:TerminalSession
+clone-my-tools	zsh/custom/zzz-private-tools.zsh	/^clone-my-tools() {$/;"	f
+close-vault	zsh/custom/vault.zsh	/^close-vault() {$/;"	f
+code-pwa	zsh/custom/dev.zsh	/^code-pwa() {$/;"	f
+code-pwa-rm	zsh/custom/dev.zsh	/^code-pwa-rm() {$/;"	f
+code-sandbox	zsh/custom/dev.zsh	/^code-sandbox() {$/;"	f
+code-stream	zsh/custom/alias.zsh	/^alias code-stream="code --disable-gpu "$@""$/;"	a
+compresspdf	zsh/custom/utils.zsh	/^compresspdf() {$/;"	f
+content	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def content(esc_seqs: false)$/;"	f	class:TerminalSession
+copy-to-clipboard	zsh/custom/00aa-lib.zsh	/^copy-to-clipboard() {$/;"	f
+create-password	zsh/custom/vault.zsh	/^create-password() {$/;"	f
+cursor	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def cursor$/;"	f	class:TerminalSession
+custom-pass	zsh/custom/vault.zsh	/^custom-pass() {$/;"	f
+default	zsh/custom/node-dev.zsh	/^  nvm alias default node$/;"	a
+destroy	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def destroy$/;"	f	class:TerminalSession
+doas	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/precommand4.zsh	/^doas(){}$/;"	f
+doc	zsh/custom/docker.zsh	/^doc() {$/;"	f
+dserve	zsh/custom/docker.zsh	/^dserve() {$/;"	f
+dserve-php	zsh/custom/docker.zsh	/^dserve-php() {$/;"	f
+echo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-self.zsh	/^alias echo='echo foo'$/;"	a
+ed	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/opt-shwordsplit1.zsh	/^ed() { command ed "$@" }$/;"	f
+expected_region_highlight=	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias.zsh	/^expected_region_highlight=()$/;"	f
+f	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/off-by-one.zsh	/^f() {}$/;"	f
+fd	zsh/custom/browser.zsh	/^alias fd=firefox-dev$/;"	a
+ff	zsh/custom/browser.zsh	/^alias ff=firefox$/;"	a
+ff-anonymous	zsh/custom/browser.zsh	/^alias ff-anonymous='firefox -P "anonymous"'$/;"	a
+ff-banking	zsh/custom/browser.zsh	/^alias ff-banking='firefox -P "banking"'$/;"	a
+ff-create-profile	zsh/custom/browser.zsh	/^fn ff-create-profile() {$/;"	f
+ff-create-profiles	zsh/custom/browser.zsh	/^fn ff-create-profiles() {$/;"	f
+ff-dev	zsh/custom/browser.zsh	/^alias ff-dev=firefox-dev$/;"	a
+ff-enhaced	zsh/custom/browser.zsh	/^alias ff-enhaced='firefox -P "enhaced"'$/;"	a
+ff-profilemanager	zsh/custom/browser.zsh	/^alias ff-profilemanager='firefox -profilemanager'$/;"	a
+ffd	zsh/custom/browser.zsh	/^alias ffd=firefox-dev$/;"	a
+ffd-profilemanager	zsh/custom/browser.zsh	/^alias ffd-profilemanager='firefox-dev -profilemanager'$/;"	a
+firefox	zsh/custom/browser.zsh	/^fn firefox() {$/;"	f
+firefox-dev	zsh/custom/browser.zsh	/^fn firefox-dev() {$/;"	f
+foo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-basic.zsh	/^alias foo="echo hello world"$/;"	a
+foobar	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-command-substitution.zsh	/^alias foobar='echo "$(echo foobar)"'$/;"	a
+g:airline_theme	vim/.vimrc	/^let g:airline_theme='shades_of_purple'$/;"	v
+g:coc_global_extensions	vim/.vimrc	/^let g:coc_global_extensions = [ 'coc-tsserver' ]$/;"	v
+g:limelight_conceal_ctermfg	vim/.vimrc	/^let g:limelight_conceal_ctermfg = 'gray'$/;"	v
+g:shades_of_purple_airline	vim/.vimrc	/^let g:shades_of_purple_airline = 1$/;"	v
+init	zsh/custom/zzz-private-tools.zsh	/^init() {$/;"	f
+initialize	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def initialize(opts = {})$/;"	f	class:TerminalSession
+initialized after sourcing the plugin	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/wrapped_widget_spec.rb	/^  context 'initialized after sourcing the plugin' do$/;"	c
+initialized before sourcing the plugin	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/rebound_bracket_spec.rb	/^  context 'initialized before sourcing the plugin' do$/;"	c
+initialized before sourcing the plugin	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/wrapped_widget_spec.rb	/^  context 'initialized before sourcing the plugin' do$/;"	c
+install	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^install: all$/;"	t
+install-homebrew	zsh/custom/00aa-lib.zsh	/^install-homebrew() {$/;"	f
+install-nvm	zsh/custom/node-dev.zsh	/^install-nvm() {$/;"	f
+invoked on a non-empty buffer	zsh/custom/plugins/zsh-autosuggestions/spec/widgets/enable_spec.rb	/^  context 'invoked on a non-empty buffer' do$/;"	c
+invoked on an empty buffer	zsh/custom/plugins/zsh-autosuggestions/spec/widgets/enable_spec.rb	/^  context 'invoked on an empty buffer' do$/;"	c
+kill-process-by-port	zsh/custom/process.zsh	/^kill-process-by-port() {$/;"	f
+list-all-docker-orphan-volumes	zsh/custom/docker.zsh	/^list-all-docker-orphan-volumes() {$/;"	f
+list_highlights=	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^  list_highlights=()$/;"	f
+load-my-tools	zsh/custom/zzz-private-tools.zsh	/^load-my-tools() {$/;"	f
+ls	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-eponymous1.zsh	/^alias ls='command ls'$/;"	a
+ls	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-eponymous2.zsh	/^alias ls=tmp tmp='command ls'$/;"	a
+ls	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-loop2.zsh	/^alias ls="ls"$/;"	a
+ls	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/function.zsh	/^ls() {$/;"	f
+mapleader	vim/.vimrc	/^let mapleader = " "$/;"	v
+markt	zsh/custom/alias.zsh	/^alias markt="\/Applications\/Mark\\ Text.app\/Contents\/MacOS\/Mark\\ Text"$/;"	a
+mov2gif	zsh/custom/video.zsh	/^function mov2gif() {$/;"	f
+moving the cursor after exiting insert mode	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/vi_mode_spec.rb	/^  describe 'moving the cursor after exiting insert mode' do$/;"	d
+my-tools	zsh/custom/zzz-private-tools.zsh	/^alias my-tools="pushd $tools"$/;"	a
+nvm-set-default-latest	zsh/custom/node-dev.zsh	/^nvm-set-default-latest() {$/;"	f
+open-vault	zsh/custom/vault.zsh	/^open-vault() {$/;"	f
+opts	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  attr_reader :opts$/;"	A	class:TerminalSession
+p	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-in-cmdsubst.zsh	/^alias p='print -r --'$/;"	a
+paste-from-clipboard	zsh/custom/00aa-lib.zsh	/^paste-from-clipboard() {$/;"	f
+paste_string	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def paste_string(str)$/;"	f	class:TerminalSession
+pasting using bracketed-paste-magic	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/bracketed_paste_magic_spec.rb	/^describe 'pasting using bracketed-paste-magic' do$/;"	d
+perf	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^perf:$/;"	t
+perf-site	zsh/custom/dev.zsh	/^perf-site() {$/;"	f
+perf-site-cls	zsh/custom/dev.zsh	/^perf-site-cls() {$/;"	f
+perf-site-help	zsh/custom/dev.zsh	/^perf-site-help() {$/;"	f
+pressing ^C after fetching a suggestion	zsh/custom/plugins/zsh-autosuggestions/spec/async_spec.rb	/^  describe 'pressing ^C after fetching a suggestion' do$/;"	d
+process-port	zsh/custom/process.zsh	/^process-port() {$/;"	f
+process-tcp-port	zsh/custom/process.zsh	/^process-tcp-port() {$/;"	f
+push-my-tools	zsh/custom/zzz-private-tools.zsh	/^push-my-tools() {$/;"	f
+quiet-test	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^quiet-test:$/;"	t
+rebinding [	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/rebound_bracket_spec.rb	/^describe 'rebinding [' do$/;"	d
+region_highlight=	zsh/custom/plugins/zsh-syntax-highlighting/tests/generate.zsh	/^  region_highlight=()$/;"	f
+region_highlight=	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^        region_highlight=()$/;"	f
+region_highlight=	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^    region_highlight=()$/;"	f
+region_highlight=	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^  region_highlight=();$/;"	f
+remember-passphrase-per-session	zsh/custom/dev.zsh	/^remember-passphrase-per-session() {$/;"	f
+remove-all-docker-containers	zsh/custom/docker.zsh	/^remove-all-docker-containers() {$/;"	f
+remove-all-docker-images	zsh/custom/docker.zsh	/^remove-all-docker-images() {$/;"	f
+remove-all-docker-orphan-volumes	zsh/custom/docker.zsh	/^remove-all-docker-orphan-volumes() {$/;"	f
+remove-stopped-old-docker-containers	zsh/custom/docker.zsh	/^remove-stopped-old-docker-containers() {$/;"	f
+reply=	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^  reply=()$/;"	f
+reyarn	zsh/custom/yarn.zsh	/^alias reyarn="rm -fr node_modules && yarn"$/;"	a
+run_command	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def run_command(command)$/;"	f	class:TerminalSession
+run_test	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^run_test() {$/;"	f
+run_test	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-perfs.zsh	/^run_test() {$/;"	f
+run_test_internal	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^run_test_internal() {$/;"	f
+run_test_internal	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-perfs.zsh	/^run_test_internal() {$/;"	f
+sdoc	zsh/custom/docker.zsh	/^sdoc() {$/;"	f
+seen_alias=	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^        seen_alias=()$/;"	f
+send_keys	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def send_keys(*keys)$/;"	f	class:TerminalSession
+send_string	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def send_string(str)$/;"	f	class:TerminalSession
+sudo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-nested-precommand.zsh	/^sudo(){}$/;"	f
+sudo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-precommand-option-argument1.zsh	/^sudo(){}$/;"	f
+sudo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-precommand-option-argument2.zsh	/^sudo(){}$/;"	f
+sudo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-precommand-option-argument3.zsh	/^sudo(){}$/;"	f
+sudo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-precommand-option-argument4.zsh	/^sudo(){}$/;"	f
+sudo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/cmdpos-elision-partial.zsh	/^sudo(){}$/;"	f
+sudo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/commmand-parameter.zsh	/^sudo(){}$/;"	f
+sudo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/param-precommand-option-argument1.zsh	/^sudo(){}$/;"	f
+sudo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/param-precommand-option-argument3.zsh	/^sudo(){}$/;"	f
+sudo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/precommand-unknown-option.zsh	/^sudo(){}$/;"	f
+sudo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/sudo-command.zsh	/^sudo(){}$/;"	f
+sudo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/sudo-comment.zsh	/^sudo(){}$/;"	f
+sudo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/sudo-redirection.zsh	/^sudo(){}$/;"	f
+sudo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/sudo-redirection2.zsh	/^sudo(){}$/;"	f
+sudo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/sudo-redirection3.zsh	/^sudo(){}$/;"	f
+sudo_b	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-precommand-option-argument2.zsh	/^alias sudo_b='sudo -b'$/;"	a
+sudo_b	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-precommand-option-argument4.zsh	/^alias sudo_b='sudo -b'$/;"	a
+sudo_b_u	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-precommand-option-argument2.zsh	/^alias sudo_b_u='sudo_b -u'$/;"	a
+sudo_b_u	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-precommand-option-argument4.zsh	/^alias sudo_b_u='sudo_b -u'$/;"	a
+sudo_u	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-precommand-option-argument1.zsh	/^alias sudo_u='sudo -u'$/;"	a
+sudo_u	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-precommand-option-argument3.zsh	/^alias sudo_u='sudo -u'$/;"	a
+suggestion fetching	zsh/custom/plugins/zsh-autosuggestions/spec/options/use_async_spec.rb	/^describe 'suggestion fetching' do$/;"	d
+sure	zsh/custom/00aa-lib.zsh	/^sure() {$/;"	f
+tap_escape	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^tap_escape() {$/;"	f
+telegram	zsh/custom/dev.zsh	/^telegram() {$/;"	f
+test	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^test: all$/;"	t
+test	zsh/custom/plugins/zsh-syntax-highlighting/Makefile	/^test:$/;"	t
+that modifies the buffer	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^  context 'that modifies the buffer' do$/;"	c
+that moves the cursor forward	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^  context 'that moves the cursor forward' do$/;"	c
+the `autosuggest-disable` widget	zsh/custom/plugins/zsh-autosuggestions/spec/widgets/disable_spec.rb	/^describe 'the `autosuggest-disable` widget' do$/;"	d
+the `autosuggest-enable` widget	zsh/custom/plugins/zsh-autosuggestions/spec/widgets/enable_spec.rb	/^describe 'the `autosuggest-enable` widget' do$/;"	d
+the `autosuggest-fetch` widget	zsh/custom/plugins/zsh-autosuggestions/spec/widgets/fetch_spec.rb	/^describe 'the `autosuggest-fetch` widget' do$/;"	d
+the `autosuggest-toggle` widget	zsh/custom/plugins/zsh-autosuggestions/spec/widgets/toggle_spec.rb	/^describe 'the `autosuggest-toggle` widget' do$/;"	d
+the `completion` suggestion strategy	zsh/custom/plugins/zsh-autosuggestions/spec/strategies/completion_spec.rb	/^describe 'the `completion` suggestion strategy' do$/;"	d
+the `history` suggestion strategy	zsh/custom/plugins/zsh-autosuggestions/spec/strategies/history_spec.rb	/^describe 'the `history` suggestion strategy' do$/;"	d
+the `match_prev_cmd` strategy	zsh/custom/plugins/zsh-autosuggestions/spec/strategies/match_prev_cmd_spec.rb	/^describe 'the `match_prev_cmd` strategy' do$/;"	d
+time	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/time-and-nocorrect2.zsh	/^alias time=':' nocorrect=':'$/;"	a
+tmux_command	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def tmux_command(cmd)$/;"	f	class:TerminalSession
+tmux_socket_name	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def tmux_socket_name$/;"	f	class:TerminalSession
+typeset_p	zsh/custom/plugins/zsh-syntax-highlighting/tests/test-highlighting.zsh	/^typeset_p() {$/;"	f
+update-my-tools	zsh/custom/zzz-private-tools.zsh	/^update-my-tools() {$/;"	f
+using `zle -U`	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/zle_input_stack_spec.rb	/^describe 'using `zle -U`' do$/;"	d
+v0.2.17	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.2.17$/;"	s	chapter:Changelog
+v0.3.0	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.3.0$/;"	s	chapter:Changelog
+v0.3.1	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.3.1$/;"	s	chapter:Changelog
+v0.3.2	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.3.2$/;"	s	chapter:Changelog
+v0.3.3	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.3.3$/;"	s	chapter:Changelog
+v0.4.0	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.4.0$/;"	s	chapter:Changelog
+v0.4.1	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.4.1$/;"	s	chapter:Changelog
+v0.4.2	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.4.2$/;"	s	chapter:Changelog
+v0.4.3	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.4.3$/;"	s	chapter:Changelog
+v0.5.0	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.5.0$/;"	s	chapter:Changelog
+v0.5.1	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.5.1$/;"	s	chapter:Changelog
+v0.5.2	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.5.2$/;"	s	chapter:Changelog
+v0.6.0	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.6.0$/;"	s	chapter:Changelog
+v0.6.1	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.6.1$/;"	s	chapter:Changelog
+v0.6.2	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.6.2$/;"	s	chapter:Changelog
+v0.6.3	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.6.3$/;"	s	chapter:Changelog
+v0.6.4	zsh/custom/plugins/zsh-autosuggestions/CHANGELOG.md	/^## v0.6.4$/;"	s	chapter:Changelog
+when ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE is specified	zsh/custom/plugins/zsh-autosuggestions/spec/options/buffer_max_size_spec.rb	/^  context 'when ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE is specified' do$/;"	c
+when ZSH_AUTOSUGGEST_COMPLETION_IGNORE is set to a pattern	zsh/custom/plugins/zsh-autosuggestions/spec/strategies/completion_spec.rb	/^  context 'when ZSH_AUTOSUGGEST_COMPLETION_IGNORE is set to a pattern' do$/;"	c
+when ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE is set to a zle_highlight string	zsh/custom/plugins/zsh-autosuggestions/spec/options/highlight_style_spec.rb	/^  describe 'when ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE is set to a zle_highlight string' do$/;"	d
+when ZSH_AUTOSUGGEST_HISTORY_IGNORE is set to a pattern	zsh/custom/plugins/zsh-autosuggestions/spec/strategies/history_spec.rb	/^  context 'when ZSH_AUTOSUGGEST_HISTORY_IGNORE is set to a pattern' do$/;"	c
+when ZSH_AUTOSUGGEST_HISTORY_IGNORE is set to a pattern	zsh/custom/plugins/zsh-autosuggestions/spec/strategies/match_prev_cmd_spec.rb	/^  context 'when ZSH_AUTOSUGGEST_HISTORY_IGNORE is set to a pattern' do$/;"	c
+when ZSH_AUTOSUGGEST_ORIGINAL_WIDGET_PREFIX is set	zsh/custom/plugins/zsh-autosuggestions/spec/options/original_widget_prefix_spec.rb	/^  context 'when ZSH_AUTOSUGGEST_ORIGINAL_WIDGET_PREFIX is set' do$/;"	c
+when ZSH_AUTOSUGGEST_STRATEGY is set to a string	zsh/custom/plugins/zsh-autosuggestions/spec/options/strategy_spec.rb	/^  context 'when ZSH_AUTOSUGGEST_STRATEGY is set to a string' do$/;"	c
+when ZSH_AUTOSUGGEST_STRATEGY is set to an array	zsh/custom/plugins/zsh-autosuggestions/spec/options/strategy_spec.rb	/^  context 'when ZSH_AUTOSUGGEST_STRATEGY is set to an array' do$/;"	c
+when ZSH_AUTOSUGGEST_USE_ASYNC is set	zsh/custom/plugins/zsh-autosuggestions/spec/options/use_async_spec.rb	/^  context 'when ZSH_AUTOSUGGEST_USE_ASYNC is set' do$/;"	c
+when `_complete` is aliased	zsh/custom/plugins/zsh-autosuggestions/spec/strategies/completion_spec.rb	/^  context 'when `_complete` is aliased' do$/;"	c
+when added to ZSH_AUTOSUGGEST_ACCEPT_WIDGETS	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^  context 'when added to ZSH_AUTOSUGGEST_ACCEPT_WIDGETS' do$/;"	c
+when added to ZSH_AUTOSUGGEST_CLEAR_WIDGETS	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^  context 'when added to ZSH_AUTOSUGGEST_CLEAR_WIDGETS' do$/;"	c
+when added to ZSH_AUTOSUGGEST_EXECUTE_WIDGETS	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^  context 'when added to ZSH_AUTOSUGGEST_EXECUTE_WIDGETS' do$/;"	c
+when added to ZSH_AUTOSUGGEST_IGNORE_WIDGETS	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^  context 'when added to ZSH_AUTOSUGGEST_IGNORE_WIDGETS' do$/;"	c
+when added to ZSH_AUTOSUGGEST_PARTIAL_ACCEPT_WIDGETS	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^    context 'when added to ZSH_AUTOSUGGEST_PARTIAL_ACCEPT_WIDGETS' do$/;"	c
+when async mode is enabled	zsh/custom/plugins/zsh-autosuggestions/spec/strategies/completion_spec.rb	/^  context 'when async mode is enabled' do$/;"	c
+when manual rebind is enabled	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^  context 'when manual rebind is enabled' do$/;"	c
+when not added to any of the widget lists	zsh/custom/plugins/zsh-autosuggestions/spec/options/widget_lists_spec.rb	/^    context 'when not added to any of the widget lists' do$/;"	c
+when suggestions are disabled	zsh/custom/plugins/zsh-autosuggestions/spec/widgets/fetch_spec.rb	/^  context 'when suggestions are disabled' do$/;"	c
+when using `completion` strategy	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/client_zpty_spec.rb	/^  context 'when using `completion` strategy' do$/;"	c
+when using vi mode	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/vi_mode_spec.rb	/^describe 'when using vi mode' do$/;"	d
+with `AUTO_CD` option set	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/auto_cd_spec.rb	/^describe 'with `AUTO_CD` option set' do$/;"	d
+with `GLOB_SUBST` option set	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/glob_subst_spec.rb	/^describe 'with `GLOB_SUBST` option set' do$/;"	d
+with `bracketed-paste` added to the list of widgets that clear the suggestion	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/bracketed_paste_magic_spec.rb	/^  context 'with `bracketed-paste` added to the list of widgets that clear the suggestion' do$/;"	c
+with asynchronous suggestions enabled	zsh/custom/plugins/zsh-autosuggestions/spec/async_spec.rb	/^context 'with asynchronous suggestions enabled' do$/;"	c
+with some items in the kill ring	zsh/custom/plugins/zsh-autosuggestions/spec/kill_ring_spec.rb	/^context 'with some items in the kill ring' do$/;"	c
+with suggestions disabled while pasting	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/bracketed_paste_magic_spec.rb	/^  context 'with suggestions disabled while pasting' do$/;"	c
+with zle-line-init unignored	zsh/custom/plugins/zsh-autosuggestions/spec/line_init_spec.rb	/^context 'with zle-line-init unignored' do$/;"	c
+with_history	zsh/custom/plugins/zsh-autosuggestions/spec/spec_helper.rb	/^  def with_history(*commands, &block)$/;"	f
+words=	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/main-highlighter.zsh	/^            words=( )$/;"	f
+ws	zsh/custom/dev.zsh	/^alias ws="cd $workspace"$/;"	a
+x	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-comment1.zsh	/^alias x=$'# foo\\npwd'$/;"	a
+x	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-comment2.zsh	/^alias x=$'# foo\\npwd'$/;"	a
+x	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-complex.zsh	/^alias x='echo && ls; >'$/;"	a
+x	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-empty.zsh	/^alias x=''$/;"	a
+x	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-redirect.zsh	/^alias x=\\>$/;"	a
+x	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-to-dir.zsh	/^alias x=\/$/;"	a
+x	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-to-dir1b.zsh	/^alias x=\/$/;"	a
+x	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/noglob-alias.zsh	/^alias x=command$/;"	a
+zsh-autosuggestions	zsh/custom/plugins/zsh-autosuggestions/README.md	/^# zsh-autosuggestions$/;"	c
+zsh-completions ![GitHub release](https://img.shields.io/github/release/zsh-users/zsh-completions.svg) ![GitHub contributors](https://img.shields.io/github/contributors/zsh-users/zsh-completions.svg) [![IRC](https://img.shields.io/badge/IRC-%23zsh--completions-yellow.svg)](irc://irc.freenode.net/#zsh-completions) [![Gitter](https://badges.gitter.im/zsh-users/zsh-completions.svg)](https://gitter.im/zsh-users/zsh-completions?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)	zsh/custom/plugins/zsh-completions/README.md	/^zsh-completions ![GitHub release](https:\/\/img.shields.io\/github\/release\/zsh-users\/zsh-comp/;"	c
+zsh-syntax-highlighting / highlighters	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters.md	/^zsh-syntax-highlighting \/ highlighters$/;"	c
+zsh-syntax-highlighting / highlighters	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/README.md	/^zsh-syntax-highlighting \/ highlighters$/;"	c
+zsh-syntax-highlighting / highlighters / brackets	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/brackets.md	/^zsh-syntax-highlighting \/ highlighters \/ brackets$/;"	s
+zsh-syntax-highlighting / highlighters / brackets	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/brackets/README.md	/^zsh-syntax-highlighting \/ highlighters \/ brackets$/;"	s
+zsh-syntax-highlighting / highlighters / cursor	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/cursor.md	/^zsh-syntax-highlighting \/ highlighters \/ cursor$/;"	s
+zsh-syntax-highlighting / highlighters / cursor	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/cursor/README.md	/^zsh-syntax-highlighting \/ highlighters \/ cursor$/;"	s
+zsh-syntax-highlighting / highlighters / line	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/line.md	/^zsh-syntax-highlighting \/ highlighters \/ line$/;"	s
+zsh-syntax-highlighting / highlighters / line	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/line/README.md	/^zsh-syntax-highlighting \/ highlighters \/ line$/;"	s
+zsh-syntax-highlighting / highlighters / main	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/main.md	/^zsh-syntax-highlighting \/ highlighters \/ main$/;"	s
+zsh-syntax-highlighting / highlighters / main	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/README.md	/^zsh-syntax-highlighting \/ highlighters \/ main$/;"	s
+zsh-syntax-highlighting / highlighters / pattern	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/pattern.md	/^zsh-syntax-highlighting \/ highlighters \/ pattern$/;"	s
+zsh-syntax-highlighting / highlighters / pattern	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/pattern/README.md	/^zsh-syntax-highlighting \/ highlighters \/ pattern$/;"	s
+zsh-syntax-highlighting / highlighters / regexp	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/regexp.md	/^zsh-syntax-highlighting \/ highlighters \/ regexp$/;"	s
+zsh-syntax-highlighting / highlighters / regexp	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/regexp/README.md	/^zsh-syntax-highlighting \/ highlighters \/ regexp$/;"	s
+zsh-syntax-highlighting / highlighters / root	zsh/custom/plugins/zsh-syntax-highlighting/docs/highlighters/root.md	/^zsh-syntax-highlighting \/ highlighters \/ root$/;"	s
+zsh-syntax-highlighting / highlighters / root	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/root/README.md	/^zsh-syntax-highlighting \/ highlighters \/ root$/;"	s
+zsh-syntax-highlighting / tests	zsh/custom/plugins/zsh-syntax-highlighting/tests/README.md	/^zsh-syntax-highlighting \/ tests$/;"	c
+zsh-syntax-highlighting [![Build Status][build-status-image]][build-status-travis]	zsh/custom/plugins/zsh-syntax-highlighting/README.md	/^zsh-syntax-highlighting [![Build Status][build-status-image]][build-status-travis]$/;"	c
+zsh_version	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def zsh_version$/;"	f	class:TerminalSession
+zshexit	zsh/custom/plugins/zsh-autosuggestions/src/strategies/completion.zsh	/^		zshexit() {$/;"	f
+zshexit	zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	/^		zshexit() {$/;"	f
+{cur_widget}	zsh/custom/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh	/^           _zsh_highlight_widget_${cur_widget}() { :; _zsh_highlight }$/;"	f
