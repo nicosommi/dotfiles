@@ -22,8 +22,8 @@ $(PLUGIN_TARGET)	zsh/custom/plugins/zsh-autosuggestions/Makefile	/^$(PLUGIN_TARG
 <C-k>	vim/.vimrc	/^inoremap <C-k> <Esc>:m .-2<CR>==gi$/;"	m
 <C-k>	vim/.vimrc	/^nnoremap <C-k> :m .-2<CR>==$/;"	m
 <C-k>	vim/.vimrc	/^vnoremap <C-k> :m '<-2<CR>gv=gv$/;"	m
+<C-o>	vim/.vimrc	/^nmap <C-o> :TagbarToggle<CR> " Tagbar outline$/;"	m
 <C-p>	vim/.vimrc	/^map <C-p> :Files<CR>$/;"	m
-<C-t>	vim/.vimrc	/^nmap <C-t> :TagbarToggle<CR> " Tagbar outline$/;"	m
 <Leader>'	vim/.vimrc	/^nnoremap <silent> <Leader>' :Marks<CR>$/;"	m
 <Leader>/	vim/.vimrc	/^nnoremap <silent> <Leader>\/ :BLines<CR>$/;"	m
 <Leader>1	vim/.vimrc	/^nnoremap <Leader>1 1gt$/;"	m
@@ -383,6 +383,9 @@ g:airline_theme	vim/.vimrc	/^let g:airline_theme='shades_of_purple'$/;"	v
 g:coc_global_extensions	vim/.vimrc	/^let g:coc_global_extensions = [ 'coc-tsserver' ]$/;"	v
 g:limelight_conceal_ctermfg	vim/.vimrc	/^let g:limelight_conceal_ctermfg = 'gray'$/;"	v
 g:shades_of_purple_airline	vim/.vimrc	/^let g:shades_of_purple_airline = 1$/;"	v
+g:tagbar_autoclose	vim/.vimrc	/^let g:tagbar_autoclose = 1$/;"	v
+g:tagbar_autofocus	vim/.vimrc	/^let g:tagbar_autofocus = 1$/;"	v
+g:tagbar_compact	vim/.vimrc	/^let g:tagbar_compact = 1$/;"	v
 init	zsh/custom/zzz-private-tools.zsh	/^init() {$/;"	f
 initialize	zsh/custom/plugins/zsh-autosuggestions/spec/terminal_session.rb	/^  def initialize(opts = {})$/;"	f	class:TerminalSession
 initialized after sourcing the plugin	zsh/custom/plugins/zsh-autosuggestions/spec/integrations/wrapped_widget_spec.rb	/^  context 'initialized after sourcing the plugin' do$/;"	c

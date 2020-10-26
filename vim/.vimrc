@@ -45,6 +45,7 @@ Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
 Plug 'jremmen/vim-ripgrep' " Ripgrep
 
 Plug 'tpope/vim-fugitive' " Ripgrep
+Plug 'tpope/vim-surround'
 
 Plug 'vim-syntastic/syntastic'
 Plug 'rust-lang/rust.vim'
