@@ -68,16 +68,21 @@ set number
 syntax enable
 filetype plugin indent on
 
-" Theming
-""" enable 24bit true color
-" If you have vim >=8.0 or Neovim >= 0.1.5
-if (has("termguicolors"))
-  set termguicolors
-endif
+" Unified color scheme (default: dark)
+colo seoul256
 
-"""" enable the theme
-colorscheme shades_of_purple
-let &t_Co=256
+" Light color scheme
+colo seoul256-light
+
+" Switch
+set background=dark
+" set background=light
+
+" seoul256 (dark):
+"   Range:   233 (darkest) ~ 239 (lightest)
+"   Default: 237
+let g:seoul256_background = 233
+colo seoul256
 
 " autocmd VimEnter * Goyo
 let g:limelight_conceal_ctermfg = 'gray'

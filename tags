@@ -377,6 +377,7 @@ ffd	zsh/custom/browser.zsh	/^alias ffd=firefox-dev$/;"	a
 ffd-profilemanager	zsh/custom/browser.zsh	/^alias ffd-profilemanager='firefox-dev -profilemanager'$/;"	a
 firefox	zsh/custom/browser.zsh	/^fn firefox() {$/;"	f
 firefox-dev	zsh/custom/browser.zsh	/^fn firefox-dev() {$/;"	f
+fix_mosh_server	zsh/custom/dev.zsh	/^fix_mosh_server() {$/;"	f
 foo	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-basic.zsh	/^alias foo="echo hello world"$/;"	a
 foobar	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-command-substitution.zsh	/^alias foobar='echo "$(echo foobar)"'$/;"	a
 g:airline_theme	vim/.vimrc	/^let g:airline_theme='shades_of_purple'$/;"	v
@@ -404,6 +405,7 @@ ls	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-
 ls	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-eponymous2.zsh	/^alias ls=tmp tmp='command ls'$/;"	a
 ls	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/alias-loop2.zsh	/^alias ls="ls"$/;"	a
 ls	zsh/custom/plugins/zsh-syntax-highlighting/highlighters/main/test-data/function.zsh	/^ls() {$/;"	f
+makeItToLocalBinAsSL	zsh/custom/utils.zsh	/^makeItToLocalBinAsSL() {$/;"	f
 mapleader	vim/.vimrc	/^let mapleader = " "$/;"	v
 markt	zsh/custom/alias.zsh	/^alias markt="\/Applications\/Mark\\ Text.app\/Contents\/MacOS\/Mark\\ Text"$/;"	a
 mov2gif	zsh/custom/video.zsh	/^function mov2gif() {$/;"	f
