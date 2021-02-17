@@ -46,6 +46,7 @@ Plug 'jremmen/vim-ripgrep' " Ripgrep
 
 Plug 'tpope/vim-fugitive' " Ripgrep
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-markdown'
 
 Plug 'vim-syntastic/syntastic'
 Plug 'rust-lang/rust.vim'
@@ -164,4 +165,6 @@ let g:tagbar_compact = 1
 let g:tagbar_autoclose = 1
 
 set termguicolors
+
+let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'javascript']
 
