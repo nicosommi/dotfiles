@@ -53,6 +53,8 @@ Plug 'rust-lang/rust.vim'
 
 Plug 'majutsushi/tagbar'
 
+Plug 'kyuhi/vim-emoji-complete'
+
 call plug#end()
 
 " Map leader to space
