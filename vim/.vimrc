@@ -170,3 +170,7 @@ set termguicolors
 
 let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'javascript']
 
+# non breaking spaces visible
+set list
+set listchars=nbsp:.
+
