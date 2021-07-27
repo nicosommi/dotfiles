@@ -11,6 +11,8 @@ cp -R git_templates/* ~/.git_template
 # Enables git ctags command
 git config --global alias.ctags '!.git/hooks/ctags'
 
+cp .gitconfig ~/.gitconfig
+
 
 printf "${BLUE}Configuring fish${NORMAL}\n"
 
