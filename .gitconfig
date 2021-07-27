@@ -1,2 +1,5 @@
 [core]
-        editor = vi
+  editor = vi
+[user]
+  email = nicosommi@gmail.com
+  name = nicosommi
