@@ -26,12 +26,12 @@ function vscode_pf_launch
 end
 
 function vscode_pf_backup_extensions
-  vscode_launchprofile $argv --list-extensions | tee $DOTFILES/templates/vscode/extensions_$argv[1].txt
+  vscode_pf_launch $argv --list-extensions | tee $DOTFILES/templates/vscode/extensions_$argv[1].txt
 end
 
 function vscode_pf_restore_extensions
   for ext in (cat $DOTFILES/templates/vscode/extensions_$argv[1].txt)
-    vscode_launchprofile $argv --install-extension $ext
+    vscode_pf_launch $argv --install-extension $ext
   end
 end
 
