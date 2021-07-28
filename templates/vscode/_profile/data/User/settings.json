@@ -26,6 +26,7 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "terminal.integrated.defaultProfile.osx": "/usr/local/bin/fish",
     "typescript.surveys.enabled": false,
+    "okteto.telemetry": false,
     "telemetry.enableTelemetry": false,
     "rest-client.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
