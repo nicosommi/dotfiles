@@ -1,3 +1,6 @@
+# inspired on
+# <https://mrsauravsahu.medium.com/custom-vscode-profiles-migrating-settings-and-extensions-14a5f8f4da35>
+
 function vscode_pf_help
   echo "Use nodejs, golang, rust, terraform, writing, pkb, full, shell as the argument of any of these vscode_pf_* prefixed commands.\n"
   echo "Features\n"
