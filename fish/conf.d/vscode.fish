@@ -36,14 +36,18 @@ function vscode_pf_backup_extensions
   vscode_pf_launch $argv --list-extensions | tee $DOTFILES/templates/vscode/extensions_$argv[1].txt
 end
 
-function vscode_pf_restore_extensions
-  for ext in (cat $DOTFILES/templates/vscode/base_extensions.txt)
-    vscode_pf_launch $argv --install-extension $ext
+function launch_lines
+  for ext in (cat $argv[1])
+    if string length ext > 0
+      vscode_pf_launch $argv[2..] --install-extension $ext
+    end
   end
+end
 
-  for ext in (cat $DOTFILES/templates/vscode/extensions_$argv[1].txt)
-    vscode_pf_launch $argv --install-extension $ext
-  end
+function vscode_pf_restore_extensions
+  launch_lines $DOTFILES/templates/vscode/base_extensions.txt $argv
+  
+  launch_lines $DOTFILES/templates/vscode/extensions_$argv[1].txt $argv
 end
 
 alias code-full="vscode_pf_launch full"
