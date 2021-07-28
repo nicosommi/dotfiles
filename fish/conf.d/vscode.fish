@@ -28,11 +28,19 @@ function vscode_pf_launch
   code --user-data-dir ~/vscode-profiles/$argv[1]/data --extensions-dir ~/vscode-profiles/$argv[1]/extensions $argv[2..]
 end
 
+function vscodium_pf_launch
+  codium --user-data-dir ~/vscode-profiles/$argv[1]/data --extensions-dir ~/vscode-profiles/$argv[1]/extensions $argv[2..]
+end
+
 function vscode_pf_backup_extensions
   vscode_pf_launch $argv --list-extensions | tee $DOTFILES/templates/vscode/extensions_$argv[1].txt
 end
 
 function vscode_pf_restore_extensions
+  for ext in (cat $DOTFILES/templates/vscode/base_extensions.txt)
+    vscode_pf_launch $argv --install-extension $ext
+  end
+
   for ext in (cat $DOTFILES/templates/vscode/extensions_$argv[1].txt)
     vscode_pf_launch $argv --install-extension $ext
   end
@@ -44,7 +52,7 @@ alias code-nodejs="vscode_pf_launch nodejs"
 alias code-golang="vscode_pf_launch golang"
 alias code-rust="vscode_pf_launch rust"
 alias code-terraform="vscode_pf_launch terraform"
-alias code-writing="vscode_pf_launch writing"
-alias code-pkb="vscode_pf_launch pkb"
+alias code-writing="vscodium_pf_launch writing"
+alias code-pkb="vscodium_pf_launch pkb"
 
 alias code-dotfiles="vscode_pf_launch shell ~/dotfiles"
