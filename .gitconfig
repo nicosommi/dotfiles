@@ -3,3 +3,7 @@
 [user]
   email = nicosommi@gmail.com
   name = nicosommi
+[init]
+	templatedir = ~/.git_template
+[alias]
+	ctags = !.git/hooks/ctags
