@@ -1,0 +1,3 @@
+[submodule "my-tools"]
+	path = my-tools
+	url = git@github.com:nicosommi/my-tools.git
