@@ -1,3 +1,5 @@
+fish_add_path ~/.krew/bin
+
 function install_krew
   set -x; set temp_dir (mktemp -d); cd "$temp_dir" &&
   set OS (uname | tr '[:upper:]' '[:lower:]') &&
