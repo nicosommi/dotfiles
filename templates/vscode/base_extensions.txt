@@ -6,3 +6,4 @@ Gruntfuggly.todo-tree
 alexdima.copy-relative-path
 nicosommi.smart-snippets-vscode
 oliversturm.fix-json
+knisterpeter.vscode-commitizen
