@@ -1,4 +1,4 @@
-function load_nvm --on-variable="PWD"
+function load_nvm_auto --on-variable="PWD"
   set -l npm_config_prefix ""
   set -l default_node_version (nvm version default)
   set -l node_version (nvm version)
@@ -14,6 +14,13 @@ function load_nvm --on-variable="PWD"
     echo "Reverting to default Node version"
     nvm use default
   end
+end
 
+function load_nvm
+  nvm use 12
+  load_nvm_bins
+end
+
+function load_nvm_bins
   fish_add_path (npm config --global get prefix)/bin
 end
