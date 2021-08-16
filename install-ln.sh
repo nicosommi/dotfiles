@@ -10,6 +10,7 @@ mkdir -p ~/.git_template/{hooks,info}
 # cp -R git_templates/* ~/.git_template
 ln -sf ~/dotfiles/git_templates/hooks/* ~/.git_template/hooks/.
 ln -sf ~/dotfiles/git_templates/info/* ~/.git_template/info/.
+ln -sf ~/dotfiles/git_templates/.gitconfig ~/.gitconfig
 # Enables git ctags command
 git config --global alias.ctags '!.git/hooks/ctags'
 

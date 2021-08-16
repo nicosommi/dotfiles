@@ -7,6 +7,7 @@ cp ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 git config --global init.templatedir '~/.git_template'
 mkdir -p ~/.git_template
 cp -R git_templates/* ~/.git_template
+cp ~/dotfiles/git_templates/.gitconfig ~/.gitconfig
 # Enables git ctags command
 git config --global alias.ctags '!.git/hooks/ctags'
 
