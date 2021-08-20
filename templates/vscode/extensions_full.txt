@@ -11,3 +11,4 @@ ms-vscode-remote.vscode-remote-extensionpack
 ms-vscode.node-debug2
 ms-vscode.vscode-typescript-tslint-plugin
 ms-vsliveshare.vsliveshare
+sebbia.jsonnetng

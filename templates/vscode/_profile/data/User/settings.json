@@ -72,6 +72,9 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "window.zoomLevel": 2,
+    "jsonnet.libPaths": [
+      "./vendor"
+    ],
     "terminal.integrated.profiles.osx": {
       "/usr/local/bin/fish": {
         "path": "/usr/local/bin/fish",
