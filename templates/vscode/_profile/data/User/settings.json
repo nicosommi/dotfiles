@@ -1,87 +1,90 @@
 {
-    "workbench.colorTheme": "Material Theme Darker High Contrast",
-    "files.autoSave": "off",
-    "terminal.integrated.fontSize": 14,
-    "terminal.integrated.lineHeight": 1.45,
-    "markdown.preview.fontSize": 14,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
-    "explorer.autoReveal": true,
-    "explorer.openEditors.visible": 5,
-    "terminal.integrated.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
-    "extensions.ignoreRecommendations": false,
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "files.insertFinalNewline": true,
-    "editor.fontSize": 19,
-    "editor.tabSize": 2,
-    "editor.wordWrap": "on",
-    "editor.renderIndentGuides": true,
-    "editor.mouseWheelScrollSensitivity": 0.1,
-    "editor.lineHeight": 32,
-    "editor.letterSpacing": 0.5,
-    "editor.fontLigatures": true,
-    "editor.fontFamily": "Fira Code,Menlo, Monaco, 'Courier New', monospace",
-    "editor.multiCursorModifier": "ctrlCmd",
-    "terminal.integrated.defaultProfile.osx": "/usr/local/bin/fish",
-    "typescript.surveys.enabled": false,
-    "okteto.telemetry": false,
-    "telemetry.enableTelemetry": false,
-    "rest-client.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false,
-    "redhat.telemetry.enabled": false,
-    "extension-leaderboard.enableAppInsights": false,
-    "workbench.sideBar.location": "right",
-    "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": true
-    },
-    "workbench.editor.limit.enabled": true,
-    "workbench.editor.limit.value": 6,
-    "debug.console.lineHeight": 35,
-    "debug.console.fontSize": 18,
-    "dotfiles.repository": "nicosommi/dotfiles",
-    "remote.containers.dotfiles.installCommand": "~/dotfiles/install.sh",
-    "remote.containers.dotfiles.targetPath": "~/dotfiles",
-    "remote.containers.dotfiles.repository": "nicosommi/dotfiles",
-    "git.suggestSmartCommit": false,
-    "[json]": {
-      "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "yaml.schemas": {},
-    "[yaml]": {
-      "editor.defaultFormatter": "redhat.vscode-yaml"
-    },
-    "diffEditor.ignoreTrimWhitespace": false,
-    "debug.javascript.autoAttachFilter": "disabled",
-    "tabnine.experimentalAutoImports": true,
-    "[markdown]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "todo-tree.general.tags": [
-      "BUG",
-      "HACK",
-      "FIXME",
-      "TODO",
-      "XXX",
-      "[ ]",
-      "[x]"
-    ],
-    "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "window.zoomLevel": 2,
-    "jsonnet.libPaths": [
-      "./vendor"
-    ],
-    "terminal.integrated.profiles.osx": {
-      "/usr/local/bin/fish": {
-        "path": "/usr/local/bin/fish",
-        "args": [
-          "-l"
-        ]
-      }
+  "workbench.colorTheme": "Material Theme Darker High Contrast",
+  "files.autoSave": "off",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.45,
+  "markdown.preview.fontSize": 14,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": true,
+  "explorer.autoReveal": true,
+  "explorer.openEditors.visible": 5,
+  "terminal.integrated.fontFamily": "Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "extensions.ignoreRecommendations": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "files.insertFinalNewline": true,
+  "editor.fontSize": 19,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.renderIndentGuides": true,
+  "editor.mouseWheelScrollSensitivity": 0.1,
+  "editor.lineHeight": 32,
+  "editor.letterSpacing": 0.5,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "Fira Code,Menlo, Monaco, 'Courier New', monospace",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "terminal.integrated.defaultProfile.osx": "/usr/local/bin/fish",
+  "typescript.surveys.enabled": false,
+  "okteto.telemetry": false,
+  "telemetry.enableTelemetry": false,
+  "rest-client.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "redhat.telemetry.enabled": false,
+  "extension-leaderboard.enableAppInsights": false,
+  "workbench.sideBar.location": "right",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 6,
+  "debug.console.lineHeight": 35,
+  "debug.console.fontSize": 18,
+  "dotfiles.repository": "nicosommi/dotfiles",
+  "remote.containers.dotfiles.installCommand": "~/dotfiles/install.sh",
+  "remote.containers.dotfiles.targetPath": "~/dotfiles",
+  "remote.containers.dotfiles.repository": "nicosommi/dotfiles",
+  "git.suggestSmartCommit": false,
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "yaml.schemas": {},
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "debug.javascript.autoAttachFilter": "disabled",
+  "tabnine.experimentalAutoImports": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 2,
+  "jsonnet.libPaths": [
+    "./vendor"
+  ],
+  "terminal.integrated.profiles.osx": {
+    "/usr/local/bin/fish": {
+      "path": "/usr/local/bin/fish",
+      "args": [
+        "-l"
+      ]
     }
-  }
-  
+  },
+  "foam.openDailyNote.directory": "journal",
+  "foam.openDailyNote.filenameFormat": "yyyy-mm-dd",
+  "foam.openDailyNote.fileExtension": "md",
+  "foam.openDailyNote.titleFormat": "dddd, mmmm d, yyyy",
+}
