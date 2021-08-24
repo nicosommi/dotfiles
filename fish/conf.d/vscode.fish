@@ -58,5 +58,6 @@ alias code-rust="vscode_pf_launch rust"
 alias code-terraform="vscode_pf_launch terraform"
 alias code-writing="vscodium_pf_launch writing"
 alias code-pkb="vscodium_pf_launch pkb"
+alias code-writing="vscode_pf_launch writing"
 
 alias code-dotfiles="vscode_pf_launch shell ~/dotfiles"
