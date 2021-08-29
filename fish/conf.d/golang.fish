@@ -6,7 +6,7 @@ function load_goroot
   fish_add_path $GOROOT/bin
 end
 
-set -gx GOROOT ~/homebrew/Cellar/go/1.17
+set -gx GOROOT ~/homebrew/Cellar/go/1.17/libexec
 
 fish_add_path ~/homebrew/Cellar/go/1.17/bin
 
