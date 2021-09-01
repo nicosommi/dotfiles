@@ -3,3 +3,6 @@ function load_brew_packages
     brew bundle install
   popd
 end
+
+set -gx HOMEBREW_CELLAR ~/homebrew/Cellar
+set -gx HOMEBREW_PREFIX ~/homebrew
