@@ -18,9 +18,9 @@ end
 
 function load_nvm
   nvm use 12
-  load_nvm_bins
+  load_npm_bins
 end
 
-function load_nvm_bins
+function load_npm_bins
   fish_add_path (npm config --global get prefix)/bin
 end
