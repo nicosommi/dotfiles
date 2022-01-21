@@ -11,4 +11,15 @@ function install_krew
   set -e KREWNAME; set -e temp_dir
 end
 
+function install_kubectl_context_prompt
+  set --universal tide_right_prompt_items kubectl $tide_right_prompt_items
+end
+
+function remove_kubectl_context_prompt
+  echo "For now just set the variable manually without it, like the example below"
+  echo "set --universal tide_right_prompt_items status cmd_duration context jobs node virtual_env go terraform"
+  # 
+  # set --universal tide_right_prompt_items (string replace -r 'kubectl ' '' $tide_right_prompt_items)
+end
+
 
