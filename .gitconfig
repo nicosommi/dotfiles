@@ -7,3 +7,5 @@
 	templatedir = ~/.git_template
 [alias]
 	ctags = !.git/hooks/ctags
+[url "ssh://git@github.com/"]
+	insteadOf = https://github.com/
