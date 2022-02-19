@@ -5,6 +5,7 @@
   name = nicosommi
 [init]
   templatedir = ~/.git_template
+  defaultBranch = main
 [alias]
 	ctags = !.git/hooks/ctags
 [url "git@github.com:"]
