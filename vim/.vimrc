@@ -156,8 +156,8 @@ set termguicolors
 let g:markdown_fenced_languages = ['html', 'python', 'bash=sh', 'javascript']
 
 " non breaking spaces visible
-set list
-set listchars=nbsp:.
+" set list
+" set listchars=nbsp:.
 
 " disable all linters as that is taken care of by coc.nvim
 let g:go_diagnostics_enabled = 0
