@@ -17,9 +17,7 @@ Plug 'scrooloose/nerdtree'
 
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'kaicataldo/material.vim'
-Plug 'junegunn/seoul256.vim'
-Plug 'ghifarit53/tokyonight-vim'
+Plug 'kristijanhusak/vim-hybrid-material'
 
 Plug 'morhetz/gruvbox'
 Plug 'Rigellute/shades-of-purple.vim'
@@ -74,25 +72,15 @@ set number
 syntax enable
 filetype plugin indent on
 
-" Unified color scheme (default: dark)
-colo seoul256
+if (has("termguicolors"))
+  set termguicolors
+endif
 
-" Light color scheme
-colo seoul256-light
-
-" Switch
 set background=dark
-" set background=light
-
-" seoul256 (dark):
-"   Range:   233 (darkest) ~ 239 (lightest)
-"   Default: 237
-let g:seoul256_background = 233
-colo seoul256
+colorscheme hybrid_material
 
 " autocmd VimEnter * Goyo
 let g:limelight_conceal_ctermfg = 'gray'
-autocmd VimEnter * Limelight
 
 " NERDTree Toggle Ctrl+E
 nnoremap <C-e> :NERDTreeToggle<CR>
@@ -155,7 +143,7 @@ let g:coc_global_extensions = [ 'coc-tsserver' ]
 set noswapfile
 
 let g:shades_of_purple_airline = 1
-let g:airline_theme='shades_of_purple'
+let g:airline_theme = "hybrid"
 
 set tags=./tags,tags;
 
