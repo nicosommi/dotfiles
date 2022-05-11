@@ -27,6 +27,7 @@
   "terminal.integrated.defaultProfile.osx": "/usr/local/bin/fish",
   "typescript.surveys.enabled": false,
   "okteto.telemetry": false,
+  "telemetry.telemetryLevel": "off",
   "telemetry.enableTelemetry": false,
   "rest-client.enableTelemetry": false,
   "telemetry.enableCrashReporter": false,
@@ -76,6 +77,11 @@
     "./vendor"
   ],
   "terminal.integrated.profiles.osx": {
+    "~/dotfiles/tmux/persist-vscode.sh": {
+      "title": "tmux-persist",
+      "id": "tmux-persist",
+      "extensionIdentifier": "tmux-persist"
+    },
     "/usr/local/bin/fish": {
       "path": "/usr/local/bin/fish",
       "args": [
