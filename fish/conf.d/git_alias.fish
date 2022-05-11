@@ -48,6 +48,7 @@ function gclean
   git clean -dfx
 end
 alias gcm 'git checkout master'
+alias gcmn 'git checkout main'
 alias gcmsg 'git commit -m'
 alias gco 'git checkout'
 alias gcount 'git shortlog -sn'
