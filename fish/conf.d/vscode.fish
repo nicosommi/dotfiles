@@ -4,15 +4,18 @@
 function vscode_pf_help
   echo "Use nodejs, golang, rust, terraform, writing, pkb, full, shell as the argument of any of these vscode_pf_* prefixed commands.\n"
   echo "Features\n"
-  echo "- Create / Delete a profile\n"
-  echo "- Backup / Restore extensions\n"
-  echo "- Launch a profile\n"
+  echo "- Create a profile with vscode_pf_new\n"
+  echo "- Initialize a profile with vscode_pf_init\n"
+  echo "- Delete a profile with vscode_pf_delete\n"
+  echo "- Backup extensions with vscode_pf_backup_extensions\n"
+  echo "- Restore extensions with vscode_pf_restore_extensions\n"
+  echo "- Launch a profile with vscode_pf_launch vscodium_pf_launch\n"
   echo "- Aliases to common profiles\n"
 end
 
 function vscode_pf_new
   mkdir -p ~/vscode-profiles/$argv[1]/{data,extensions}
-  vscode_initialize $argv
+  vscode_pf_init $argv
 end
 
 # initializes the vscode profile without telemetry, etc
@@ -59,5 +62,6 @@ alias code-terraform="vscode_pf_launch terraform"
 alias code-writing="vscodium_pf_launch writing"
 alias code-pkb="vscodium_pf_launch pkb"
 alias code-writing="vscode_pf_launch writing"
+alias code-pascal="vscode_pf_launch pascal"
 
 alias code-dotfiles="vscode_pf_launch shell ~/dotfiles"
