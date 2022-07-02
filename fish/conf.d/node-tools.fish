@@ -6,3 +6,7 @@ function nvm-set-default-latest
   nvm alias default node
 end
 
+function pnpm-install
+  curl -fsSL https://get.pnpm.io/install.sh | sh -
+end
+
