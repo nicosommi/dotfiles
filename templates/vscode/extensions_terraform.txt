@@ -1,3 +1,4 @@
 hashicorp.terraform
 ms-azuretools.vscode-docker
 sebbia.jsonnetng
+GitHub.copilot
