@@ -56,6 +56,7 @@ end
 alias code-full="vscode_pf_launch full"
 alias code-shell="vscode_pf_launch shell"
 alias code-nodejs="vscode_pf_launch nodejs"
+alias code-python="vscode_pf_launch python"
 alias code-golang="vscode_pf_launch golang"
 alias code-rust="vscode_pf_launch rust"
 alias code-terraform="vscode_pf_launch terraform"
