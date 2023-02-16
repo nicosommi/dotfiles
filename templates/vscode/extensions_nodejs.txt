@@ -8,3 +8,4 @@ silvenon.mdx
 msjsdiag.vscode-react-native
 dbaeumer.vscode-eslint
 eamodio.gitlens
+astro-build.astro-vscode
