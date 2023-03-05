@@ -1,7 +1,7 @@
 [core]
   editor = vi
 [user]
-  email = nicosommi@gmail.com
+  email = 1702755+nicosommi@users.noreply.github.com
   name = nicosommi
 [init]
   templatedir = ~/.git_template

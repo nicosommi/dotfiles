@@ -114,8 +114,8 @@ source $ZSH/oh-my-zsh.sh
 # export ANDROID_HOME="~/Library/Android/sdk"
 
 # HOMEBREW PREFIX is useful for macos, enable and adjust path
-export HOMEBREW_PREFIX=$HOME/homebrew
-export PATH="$HOMEBREW_PREFIX/bin:$PATH"
+export HOMEBREW_PREFIX=/opt/homebrew
+export PATH="/opt/homebrew/bin:$PATH"
 
 # local bin
 export PATH="$HOME/.bin:$PATH"
@@ -179,3 +179,4 @@ export PATH=$PATH:$GOPATH
 export PATH=$PATH:$GOROOT/bin
 export TERM="xterm-256color"
 
+[[ -s "~/.gvm/scripts/gvm" ]] && source "~/.gvm/scripts/gvm"

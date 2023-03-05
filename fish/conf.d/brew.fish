@@ -6,5 +6,7 @@ end
 
 alias bbrew "HOMEBREW_NO_BOTTLE_SOURCE_FALLBACK=1 brew"
 
-set -gx HOMEBREW_CELLAR ~/homebrew/Cellar
-set -gx HOMEBREW_PREFIX ~/homebrew
+set -gx HOMEBREW_CELLAR /opt/homebrew/Cellar
+set -gx HOMEBREW_PREFIX /opt/homebrew
+
+fish_add_path /opt/homebrew/bin
