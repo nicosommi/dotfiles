@@ -1,2 +1,0 @@
-foam.foam-vscode
-tejasvi.markless

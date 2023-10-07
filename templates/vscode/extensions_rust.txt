@@ -1,3 +1,0 @@
-rust-lang.rust-analyzer
-GitHub.copilot
-vadimcn.vscode-lldb
