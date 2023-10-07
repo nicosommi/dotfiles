@@ -1,8 +1,9 @@
 [core]
   editor = vi
 [user]
-  email = 1702755+nicosommi@users.noreply.github.com
-  name = nicosommi
+	email = 1702755+nicosommi@users.noreply.github.com
+	name = nico
+	signingkey = 292C7E96D31D9320
 [init]
 	templatedir = ~/.git_template
 	defaultBranch = main
@@ -10,3 +11,12 @@
 	ctags = !.git/hooks/ctags
 [url "ssh://git@github.com/"]
 	insteadOf = https://github.com/
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
