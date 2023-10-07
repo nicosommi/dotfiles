@@ -42,6 +42,7 @@ Plug 'gabrielelana/vim-markdown'  " Markdown support
 Plug 'neoclide/coc-tsserver', {'do': 'yarn install --frozen-lockfile'}
 Plug 'josa42/coc-go'
 Plug 'neoclide/coc.nvim' , { 'branch' : 'release' }
+Plug 'fatih/vim-go' " Go support
 
 Plug 'jremmen/vim-ripgrep' " Ripgrep
 
